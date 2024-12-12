@@ -14,9 +14,9 @@ Generalist Software Developer
 
 ## TLDR;
 
-- 15+ years in software dev
+- 17+ years in software dev
 - Made web & mobile apps as a consultant using React, React Native and Flutter.
-- Full stack web developer for about 5+ years (react, psql, mongo, nodejs)
+- Full stack web developer for about 7+ years (react, psql, mongo, nodejs)
 - Worked in games industry on internal tools, CI/CD and infrastructure for about 2 years.
 - Developed native iOS apps for about 6 years (swift, objc)
 - Worked on my own startup for a brief time
