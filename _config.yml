@@ -12,3 +12,9 @@ exclude:
   - _pdfbuild
 plugins:
   - "jekyll-github-metadata"
+
+# Umami analytics (web build only; data-domains keeps localhost previews out of stats).
+umami:
+  src: https://umami.cicex.cloud/script.js
+  website_id: 306e5ed3-f1f7-42d4-9142-e1d32d01f7f4
+  domains: eralpkaraduman.github.io

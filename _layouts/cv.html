@@ -42,9 +42,9 @@
 
   <link href="media/style.css" type="text/css" rel="stylesheet">
   {% if site.shouldInjectCvDownloadLink != "NO" %}
-  <!-- Umami analytics: web build only (excluded from the PDF); data-domains
-       restricts collection to the live site so localhost previews aren't counted. -->
-  <script defer src="https://umami.cicex.cloud/script.js" data-website-id="306e5ed3-f1f7-42d4-9142-e1d32d01f7f4" data-domains="eralpkaraduman.github.io"></script>
+  <!-- Umami analytics (config in _config.yml): web build only (excluded from the
+       PDF); data-domains restricts collection to the live site so localhost isn't counted. -->
+  <script defer src="{{ site.umami.src }}" data-website-id="{{ site.umami.website_id }}" data-domains="{{ site.umami.domains }}"></script>
   {% endif %}
 </head>
 <body class="markdown-body">
