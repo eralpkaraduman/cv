@@ -33,6 +33,8 @@ jsonld:
     - Node.js
     - iOS development
     - Cross-platform mobile development
+    - Three.js
+    - Blender
     - AWS
     - GCP
     - Cloudflare
@@ -65,6 +67,7 @@ I also write at [eralp.dev](https://eralp.dev), produce a comedy podcast, and ho
 | ---------------- | ---------------------------------------------------------------------- |
 | Mobile           | Swift, Objective-C, React Native, Flutter / Dart, native iOS & Android |
 | Frontend         | React, Redux, TypeScript, JavaScript, SPA architecture                 |
+| 3D / Graphics    | Three.js, Blender                                                      |
 | Backend          | Node.js, PostgreSQL, MySQL, MongoDB, Redis, Kafka                      |
 | Cloud & Infra    | GCP, AWS, Cloudflare, Docker, CI/CD, Mobile Ops, Fastlane, Jenkins     |
 | AI-Augmented Dev | AI coding agents, custom tooling & integrations, workflow automation   |
@@ -77,7 +80,7 @@ I also write at [eralp.dev](https://eralp.dev), produce a comedy podcast, and ho
 _Senior Software Engineer_
 
 - Mobile & web internal tooling products for an autonomous delivery robot fleet.
-- Drove objective key results, developed and improved products end to end from design, development, and measuring usage.
+- Drove objective key results, developed and improved products end to end across design, development, and usage measurement.
 - Built observability into tool usage to track adoption and surface friction.
 
 `March 2019 - June 2022`
@@ -88,29 +91,29 @@ _Principal Software Engineer_
 **Seriously Digital Entertainment**, Helsinki  
 _Technology Programmer_
 
-- Working on web technology based internal tools (react, redux, node.js, typescript, docker).
-- Native plugin development for Unity3D (iOS/Obj-C & Android/Java).
+- Worked on web-technology-based internal tools (React, Redux, Node.js, TypeScript, Docker).
+- Developed native plugins for Unity3D (iOS/Obj-C & Android/Java).
 
 `Sep 2015 - Jan 2017`
 **DealDash**, Helsinki  
 _iOS Developer_
 
-- Built iOS App Dropio (Swift): A retail app with real time multiplayer game mechanics.
-- Also worked on backend (PhP7 / Symfony).
+- Built iOS app Dropio (Swift): a retail app with real-time multiplayer game mechanics.
+- Also worked on the backend (PHP 7 / Symfony).
 - Participated in product development.
 
 `Sep 2014 - Oct 2016`
 **CupsOn.Me**, Dublin  
 _Co-Founder & iOS Developer_
 
-- Co-founded & Developed (iOS - Obj-C) a mobile first discovery &
-  purchasing platform for 3rd wave coffee enthusiasts.
+- Co-founded & developed (iOS - Obj-C) a mobile-first discovery &
+  purchasing platform for 3rd-wave coffee enthusiasts.
 
 `Apr 2015 - Aug 2015`
 **Hipo**, Istanbul  
 _iOS Developer_
 
-- Worked on a iOS (Obj-C) social network app for collectors named "Fieldguide",
+- Worked on an iOS (Obj-C) social network app for collectors named "Fieldguide",
   which included technically challenging user interfaces.
   ([App Store Link](https://itunes.apple.com/us/app/fieldguide-for-everything/id879829383?mt=8))
 
@@ -118,20 +121,21 @@ _iOS Developer_
 **Adphorus / Publik**, Istanbul  
 _Mobile (iOS & Android) Software Developer_
 
-- Worked on Adphorus, SaaS platform for facebook ads management.
+- Worked on Adphorus, a SaaS platform for Facebook ads management.
 - Built native iOS (Obj-C) & Android (Java) clients for Adphorus.
-- Worked on Cevap.Tv, video how-to website.
-- Built video playback components with google video ads integration (flash, as3, IMA SDK)
+- Worked on Cevap.Tv, a video how-to website.
+- Built video playback components with Google video ads integration (Flash, AS3, IMA SDK)
 - Built iPad / iPhone app clients (Obj-C)
 - Designed streaming video infrastructure (based on Wowza & AWS)
-- Built a video transcoding system (FFMpeg, node.js, AWS) & streaming-transcoding backend (node.js)
+- Built a video transcoding system (FFmpeg, Node.js, AWS) & streaming-transcoding backend (Node.js)
 
-`Sep 2008 - Nov 2012` **MagiClick**, Istanbul  
+`Sep 2008 - Nov 2012`
+**MagiClick**, Istanbul  
 _Senior Flash Developer & Team Leader_
 
-- Built websites and advergames (Flash),
+- Built websites and advergames (Flash).
 - Rich media campaigns combining electronics & software.
-- Early AR applications with Flash's c++ runtime.
+- Early AR applications with Flash's C++ runtime.
 - Worked as team lead of 6 (2012)
 
 ## Built with AI
