@@ -1,9 +1,52 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset=utf-8 />
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO / social / AI-agent metadata -->
+  <meta name="description" content="Eralp Karaduman — Senior Full-Stack & Mobile Engineer with 18 years across web, native iOS/React Native/Flutter, and AWS/GCP cloud, now focused on AI-augmented engineering." />
+  <meta name="author" content="Eralp Karaduman" />
+  <link rel="canonical" href="https://eralpkaraduman.github.io/cv/" />
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Eralp Karaduman's CV" />
+  <meta property="og:description" content="Senior Full-Stack & Mobile Engineer — 18 years across web, native mobile, and cloud, now focused on AI-augmented engineering." />
+  <meta property="og:url" content="https://eralpkaraduman.github.io/cv/" />
+  <meta property="profile:first_name" content="Eralp" />
+  <meta property="profile:last_name" content="Karaduman" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Eralp Karaduman's CV" />
+  <meta name="twitter:description" content="Senior Full-Stack & Mobile Engineer — 18 years across web, native mobile, and cloud, now focused on AI-augmented engineering." />
+
+  <!-- Machine-readable profile for CV parsers / AI agents -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Eralp Karaduman",
+    "jobTitle": "Senior Full-Stack & Mobile Engineer",
+    "description": "Engineer with 18 years shipping production software across web, native mobile, and cloud infrastructure, now focused on AI-augmented engineering.",
+    "email": "mailto:eralp@eralp.dev",
+    "url": "https://eralp.dev",
+    "mainEntityOfPage": "https://eralpkaraduman.github.io/cv/",
+    "worksFor": { "@type": "Organization", "name": "Starship Technologies" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Kadir Has University" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Helsinki", "addressCountry": "FI" },
+    "sameAs": [
+      "https://linkedin.com/in/eralpkaraduman",
+      "https://github.com/eralpkaraduman",
+      "https://eralp.dev"
+    ],
+    "knowsAbout": [
+      "React", "TypeScript", "JavaScript", "Swift", "Objective-C",
+      "React Native", "Flutter", "Node.js", "iOS development",
+      "Cross-platform mobile development", "AWS", "GCP", "Cloudflare",
+      "Docker", "CI/CD", "AI-augmented engineering"
+    ]
+  }
+  </script>
+
   <link href="media/style.css" type="text/css" rel="stylesheet">
   {% if site.shouldInjectCvDownloadLink != "NO" %}
   <!-- Umami analytics: web build only (excluded from the PDF); data-domains
