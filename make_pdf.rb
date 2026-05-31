@@ -12,5 +12,5 @@ site_dir = ENV['SITE_DIR'] || './_site'
 
 puts "Generating PDF..."
 kit = PDFKit.new(File.new("#{site_dir}/index.html"), :page_size => 'Letter')
-file = kit.to_file("#{site_dir}/cv.pdf")
+file = kit.to_file("#{site_dir}/Eralp-Karaduman-CV.pdf")
 puts "Generated PDF is here: #{file.path}"

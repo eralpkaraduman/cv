@@ -95,7 +95,8 @@ Stop / restart it with:
 docker rm -f cv-jekyll
 ```
 
-**Generate the PDF** (writes `_site/cv.pdf` on the host, JS injection disabled to
+**Generate the PDF** (writes `_pdfbuild/Eralp-Karaduman-CV.pdf` on the host, in a
+separate dir so it doesn't clobber a running preview; JS injection disabled to
 match CI):
 
 ```sh
@@ -104,7 +105,7 @@ docker run --rm --platform linux/amd64 -v "$PWD":/cv cv-jekyll build-pdf
 
 Notes:
 - The download button links to the latest **GitHub release** PDF, not the local
-  `_site/cv.pdf` — so locally it points at whatever CI last published.
+  `_pdfbuild/Eralp-Karaduman-CV.pdf` — so locally it points at whatever CI last published.
 - The base image is Debian buster (EOL), so the `Dockerfile` repoints `apt` at
   `archive.debian.org`; `wkhtmltopdf` uses the patched-Qt build and runs headless
   (no `xvfb` needed, unlike CI).

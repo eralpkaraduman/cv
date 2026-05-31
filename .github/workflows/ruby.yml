@@ -31,6 +31,6 @@ jobs:
         with:
           name: ${{ steps.tag.outputs.value }}
           tag_name: ${{ steps.tag.outputs.value }}
-          files: ./_pdfbuild/cv.pdf
+          files: ./_pdfbuild/*.pdf
           # Ambient, auto-provisioned token for this run — no stored PAT/secret.
           token: ${{ github.token }}
