@@ -2,7 +2,7 @@ name: Build PDF and Release
 
 on:
   push:
-    branches: [ gh-pages ]
+    branches: [gh-pages]
 
 # Allow the default GITHUB_TOKEN to create tags/releases.
 permissions:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # ratchet:actions/checkout@v4
 
       # Build the PDF inside the pinned image (Ruby 2.5 / Jekyll 3.7.4 / wkhtmltopdf).
       # build-pdf writes _site/cv.pdf with the download-link JS disabled.
@@ -27,7 +27,7 @@ jobs:
         run: echo "value=v$(date +%s)" >> "$GITHUB_OUTPUT"
 
       - name: Create release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # ratchet:softprops/action-gh-release@v2
         with:
           name: ${{ steps.tag.outputs.value }}
           tag_name: ${{ steps.tag.outputs.value }}
