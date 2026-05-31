@@ -83,6 +83,15 @@ _Senior Software Engineer_
 - Drove objective key results, developed and improved products end to end across design, development, and usage measurement.
 - Built observability into tool usage to track adoption and surface friction.
 
+`Nov 2024 - July 2025`
+**[Arca](https://www.arca.so/faq)**, Remote  
+_Freelance Software Consultant_
+
+- Helped bootstrap the product from scratch, standing up the mobile and web foundations end to end.
+- Built a cross-platform React Native app shipped to iOS & Android, plus a Next.js web application.
+- Set up the web application infrastructure on GCP.
+- Established mobile ops with Fastlane — automated iOS & Android release pipelines.
+
 `March 2019 - June 2022`
 **Qvik**, Helsinki  
 _Principal Software Engineer_
