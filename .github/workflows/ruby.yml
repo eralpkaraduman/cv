@@ -1,74 +1,36 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-# This workflow will download a prebuilt Ruby version, install dependencies and run tests with Rake
-# For more information see: https://github.com/marketplace/actions/setup-ruby-jruby-and-truffleruby
-
-name: Ruby
+name: Build PDF and Release
 
 on:
   push:
     branches: [ gh-pages ]
-  pull_request:
-    branches: [ gh-pages ]
+
+# Allow the default GITHUB_TOKEN to create tags/releases.
+permissions:
+  contents: write
 
 jobs:
   build-pdf:
-    env: 
-      DISPLAY: :0
-      INJECT_CV_DOWNLOAD_LINK: NO
-
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 2.5.1 
-        bundler-cache: false
-    - name: Set build name env
-      id: build-name
-      run: |
-        echo "::set-output name=value::v$(date +%s)"
-    - name: Set up Ruby
-    # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
-    # change this to (see https://github.com/ruby/setup-ruby#versioning):
-    # uses: ruby/setup-ruby@v1
-      uses: ruby/setup-ruby@473e4d8fe5dd94ee328fdfca9f8c9c7afc9dae5e
-      with:
-        ruby-version: ${{ matrix.ruby-version }}
-        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-    - name: Start xvfb
-      run: | 
-        sudo apt-get install -y xvfb libxkbcommon-x11-0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0 libxcb-xinput0 libxcb-xfixes0
-        # start xvfb in the background
-        sudo /usr/bin/Xvfb $DISPLAY -screen 0 1280x1024x24 &
-    - name: Apt update
-      run: sudo apt-get -qq update
-    - name: Install xfonts
-      run: sudo apt-get install -y xfonts-75dpi
-    - name: Install wkhtmltox
-      run: | 
-        wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb
-        sudo apt install ./wkhtmltox_0.12.6-1.focal_amd64.deb
-    - name: Bundle Install
-      run: bundle install
-    - name: Install pdfkit
-      run: gem install pdfkit
-    - name: Build jekyll
-      run: bundle exec jekyll build
-    - name: Generate pdf
-      run: ruby make_pdf.rb
-    - name: Bump version and push tag
-      uses: hole19/git-tag-action@master
-      env:
-        TAG: ${{ steps.build-name.outputs.value }}
-        GITHUB_TOKEN: ${{ secrets.GH_OAUTH_TOKEN }}
-    - name: Make release
-      uses: softprops/action-gh-release@v1
-      with:
-        name: ${{ steps.build-name.outputs.value }} 
-        tag_name: ${{ steps.build-name.outputs.value }}
-        files: |
-          ./_site/cv.pdf
+      - uses: actions/checkout@v4
+
+      # Build the PDF inside the pinned image (Ruby 2.5 / Jekyll 3.7.4 / wkhtmltopdf).
+      # build-pdf writes _site/cv.pdf with the download-link JS disabled.
+      - name: Build PDF in Docker
+        run: |
+          docker build -t cv-jekyll .
+          docker run --rm -v "$PWD":/cv cv-jekyll build-pdf
+
+      - name: Compute release tag
+        id: tag
+        run: echo "value=v$(date +%s)" >> "$GITHUB_OUTPUT"
+
+      - name: Create release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ steps.tag.outputs.value }}
+          tag_name: ${{ steps.tag.outputs.value }}
+          files: ./_site/cv.pdf
+          # Ambient, auto-provisioned token for this run — no stored PAT/secret.
+          token: ${{ github.token }}
