@@ -723,6 +723,12 @@ Custom styles
   margin-bottom: 24px;
 }
 
+/* No button injected (e.g. in the PDF, or before/without the API call): the
+   empty header collapses, and the element after it shouldn't keep a top gap. */
+#cv-header:empty + * {
+  margin-top: 0;
+}
+
 .cv-updated {
   color: #6a737d;
   font-size: 14px;
