@@ -5,47 +5,9 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="media/style.css" type="text/css" rel="stylesheet">
-  {% if site.shouldInjectCvDownloadLink != "NO" %}
-  <script>
-	// Attempts to fetch the latest pdf url, then injects the download link to bottom of the page.
-	var req = new XMLHttpRequest();
-	req.onreadystatechange = function() {
-		if (req.readyState == XMLHttpRequest.DONE) {
-			if (req.status == 200) {
-				try {
-					var responseJSON = JSON.parse(req.responseText);
-					if (responseJSON.assets && responseJSON.assets.length > 0) {
-						var latestReleaseUrl = responseJSON.assets[0].browser_download_url;
-					
-					 	var directLinkElement = document.createElement("a");
-						directLinkElement.text = "Download as PDF";
-						directLinkElement.href = latestReleaseUrl;
-						directLinkElement.className = "download-button";
-
-						var elementToInsert = document.getElementById("cv-header");
-						elementToInsert.appendChild(directLinkElement);
-					}
-					else {
-						console.error("PDF download link injection failed: Missing asses in response");
-					}
-				}
-				catch(e) { 
-					console.error("PDF download link injection failed: " + e);
-				}
-			}
-			else{
-				console.error("PDF download link injection failed: Response status code not 200 ("+req.status+")");
-			}
-		}
-	};
-	req.open("GET", "https://api.github.com/repos/{{site.github.repository_nwo}}/releases/latest", true);
-	req.send();
-  </script>
-  {% endif %}
 </head>
 <body class="markdown-body">
-<!-- "Download as PDF" button injected into #cv-header by the script above -->
-<div id="cv-header"></div>
+{% if site.shouldInjectCvDownloadLink != "NO" %}<div id="cv-header"><a class="download-button" href="https://github.com/{{ site.github.owner_name }}/{{ site.github.project_title }}/releases/latest/download/cv.pdf">Download as PDF</a></div>{% endif %}
 {{ content }}
 <hr>
 <p class="cv-updated">Updated {{ site.time | date: "%B %-d %Y" }}. <a href="https://{{site.github.owner_name}}.github.io/{{site.github.project_title}}">Get latest</a></p>

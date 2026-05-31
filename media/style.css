@@ -717,16 +717,7 @@ Custom styles
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 12px;
-}
-
-#cv-header:not(:empty) {
   margin-bottom: 24px;
-}
-
-/* No button injected (e.g. in the PDF, or before/without the API call): the
-   empty header collapses, and the element after it shouldn't keep a top gap. */
-#cv-header:empty + * {
-  margin-top: 0;
 }
 
 .cv-updated {
