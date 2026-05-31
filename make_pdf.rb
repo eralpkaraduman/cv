@@ -8,7 +8,9 @@ PDFKit.configure do |config|
 	config.verbose = true
 end
 
+site_dir = ENV['SITE_DIR'] || './_site'
+
 puts "Generating PDF..."
-kit = PDFKit.new(File.new('./_site/index.html'), :page_size => 'Letter')
-file = kit.to_file('./_site/cv.pdf')
+kit = PDFKit.new(File.new("#{site_dir}/index.html"), :page_size => 'Letter')
+file = kit.to_file("#{site_dir}/cv.pdf")
 puts "Generated PDF is here: #{file.path}"

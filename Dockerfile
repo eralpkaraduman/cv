@@ -34,10 +34,11 @@ RUN bundle install
 # pdfkit drives wkhtmltopdf from make_pdf.rb; installed outside the bundle (as CI does).
 RUN gem install pdfkit -v 0.8.6
 
-# Helper: build the static site, then render _site/index.html -> _site/cv.pdf.
-# Disable the PDF-download-link JS for the PDF build only (same as CI); the serve
-# preview keeps it enabled so the download button shows on localhost:4000.
-RUN printf '#!/bin/sh\nset -e\nexport INJECT_CV_DOWNLOAD_LINK=NO\nbundle exec jekyll build\nruby make_pdf.rb\n' > /usr/local/bin/build-pdf \
+# Helper: build the static site into _pdfbuild, then render it to _pdfbuild/cv.pdf.
+# Uses a separate output dir (not _site) so it never clobbers a running
+# `jekyll serve` preview. Disables the download-link/analytics JS (INJECT=NO),
+# same as CI.
+RUN printf '#!/bin/sh\nset -e\nexport INJECT_CV_DOWNLOAD_LINK=NO\nexport SITE_DIR=_pdfbuild\nbundle exec jekyll build -d "$SITE_DIR"\nruby make_pdf.rb\n' > /usr/local/bin/build-pdf \
     && chmod +x /usr/local/bin/build-pdf
 
 EXPOSE 4000

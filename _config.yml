@@ -9,5 +9,6 @@ exclude:
   - Gemfile.lock
   - Dockerfile
   - .dockerignore
+  - _pdfbuild
 plugins:
   - "jekyll-github-metadata"
