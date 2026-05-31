@@ -24,6 +24,7 @@ jsonld:
     - https://eralp.dev
   knowsAbout:
     - React
+    - Next.js
     - React Native
     - TypeScript
     - JavaScript
@@ -70,7 +71,7 @@ I also write at [eralp.dev](https://eralp.dev), produce a comedy podcast, and ho
 | Area             | Technologies                                                           |
 | ---------------- | ---------------------------------------------------------------------- |
 | Mobile           | Swift, Objective-C, React Native, Flutter / Dart, native iOS & Android |
-| Frontend         | React, Redux, TypeScript, JavaScript, SPA architecture                 |
+| Frontend         | React, Next.js, Redux, TypeScript, JavaScript, SPA architecture        |
 | 3D / Graphics    | Three.js, Blender                                                      |
 | Backend          | Node.js, PostgreSQL, MySQL, MongoDB, Redis, Kafka                      |
 | Cloud & Infra    | GCP, AWS, Cloudflare, Coolify, Docker, Kubernetes, Microservices, Distributed Architectures, CI/CD, Mobile Ops, Fastlane, Jenkins |
