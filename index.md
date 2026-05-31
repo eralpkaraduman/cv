@@ -4,11 +4,12 @@ title: Eralp Karaduman's CV
 ---
 
 # Eralp Karaduman
+
 Senior Full-Stack & Mobile Engineer — Web · Native Mobile · Cloud Infrastructure
 
-| __E-Mail__   | [eralp@eralp.dev](mailto:eralp@eralp.dev)              | 
-| __Website__  | [eralp.dev](https://eralp.dev)                         |
-| __LinkedIn__ | [linkedin.com/in/eralpkaraduman](https://linkedin.com/in/eralpkaraduman) |
+| **E-Mail** | [eralp@eralp.dev](mailto:eralp@eralp.dev) |
+| **Website** | [eralp.dev](https://eralp.dev) |
+| **LinkedIn** | [linkedin.com/in/eralpkaraduman](https://linkedin.com/in/eralpkaraduman) |
 
 Engineer with 18 years shipping production software across the entire stack. Genuine depth in three areas that rarely overlap in one person:
 
@@ -22,82 +23,75 @@ I also write at [eralp.dev](https://eralp.dev), produce a comedy podcast, and ho
 
 ## Core Skills
 
-| Area              | Technologies                                                                   |
-|-------------------|--------------------------------------------------------------------------------|
-| Mobile            | Swift, Objective-C, React Native, Flutter / Dart, native iOS & Android         |
-| Frontend          | React, Redux, TypeScript, JavaScript, SPA architecture                         |
-| Backend           | Node.js, PostgreSQL, MongoDB, PHP / Symfony                                    |
-| Cloud & Infra     | GCP, AWS, Docker, CI/CD pipelines, streaming & transcoding infrastructure      |
-| AI-Augmented Dev  | AI coding agents, custom tooling & integrations, workflow automation           |
-| Languages         | TypeScript / JS, Swift, Obj-C, Dart, Python, PHP, C#                           |
+| Area             | Technologies                                                           |
+| ---------------- | ---------------------------------------------------------------------- |
+| Mobile           | Swift, Objective-C, React Native, Flutter / Dart, native iOS & Android |
+| Frontend         | React, Redux, TypeScript, JavaScript, SPA architecture                 |
+| Backend          | Node.js, PostgreSQL, MySQL, MongoDB, Redis, Kafka,                     |
+| Cloud & Infra    | GCP, AWS, Cloudflare, Docker, CI/CD, Mobile Ops, Fastlane, Jenkins     |
+| AI-Augmented Dev | AI coding agents, custom tooling & integrations, workflow automation   |
+| Languages        | TypeScript / JavaScript, Swift, Objective-C, Dart, Lua                 |
 
 ## Experience
 
 `June 2022 - now`
-__Starship Technologies__, Helsinki  
+**Starship Technologies**, Helsinki  
 _Senior Software Engineer_
 
-- Mobile internal tooling for an autonomous delivery robot fleet.
-- Drove internal tool adoption from 20% to 80% of key users by interviewing impactful users to identify pain points and shipping fixes end-to-end on my own.
+- Mobile & web internal tooling products for an autonomous delivery robot fleet.
+- Drove objective key results, developped and improved products end to end from design, development, and measuring usage.
 - Built observability into tool usage to track adoption and surface friction.
 
-
 `March 2019 - June 2022`
-__Qvik__, Helsinki  
+**Qvik**, Helsinki  
 _Principal Software Engineer_
 
-
 `Jan 2017 - February 2019`
-__Seriously Digital Entertainment__, Helsinki  
+**Seriously Digital Entertainment**, Helsinki  
 _Technology Programmer_
 
 - Working on web technology based internal tools (react, redux, node.js, typescript, docker).
 - Native plugin development for Unity3D (iOS/Obj-C & Android/Java).
 
-
 `Sep 2015 - Jan 2017`
-__DealDash__, Helsinki  
+**DealDash**, Helsinki  
 _iOS Developer_
 
 - Built iOS App Dropio (Swift): A retail app with real time multiplayer game mechanics.
 - Also worked on backend (PhP7 / Symfony).
-- Participated in product development. 
-
+- Participated in product development.
 
 `Sep 2014 - Oct 2016`
-__CupsOn.Me__, Dublin  
+**CupsOn.Me**, Dublin  
 _Co-Founder & iOS Developer_
 
 - Co-founded & Developed (iOS - Obj-C) a mobile first discovery &
-purchasing platform for 3rd wave coffee enthusiasts.
-
+  purchasing platform for 3rd wave coffee enthusiasts.
 
 `Apr 2015 - Aug 2015`
-__Hipo__, Istanbul  
+**Hipo**, Istanbul  
 _iOS Developer_
 
-- Worked on a iOS (Obj-C) social network app for collectors named "Fielguide", 
-which included technically challenging user interfaces.
-([App Store Link](https://itunes.apple.com/us/app/fieldguide-for-everything/id879829383?mt=8))
+- Worked on a iOS (Obj-C) social network app for collectors named "Fielguide",
+  which included technically challenging user interfaces.
+  ([App Store Link](https://itunes.apple.com/us/app/fieldguide-for-everything/id879829383?mt=8))
 
-
-`November 2012 - Apr 2015` 
-__Adphorus / Publik__, Istanbul  
+`November 2012 - Apr 2015`
+**Adphorus / Publik**, Istanbul  
 _Mobile (iOS & Android) Software Developer_
 
 - Worked on Adphorus, SaaS platform for facebook ads management.
 - Built native iOS (Objc-C) & Android (Java) clients for Adphorus.
-- Worked on Cevap.Tv, video how-to website. 
+- Worked on Cevap.Tv, video how-to website.
 - Built video playback components with google video ads integration (flash, as3, IMA SDK)
 - Built iPad / iPhone app clients (Obj-C)
 - Designed streaming video infrastracture (based on Wowza & AWS)
 - Built a video transcoding system (FFMpeg, node.js, AWS) & streaming-transcoding backend (node.js)
 
-
-`Sep 2008 - Nov 2012` __MagiClick__, Istanbul  
+`Sep 2008 - Nov 2012` **MagiClick**, Istanbul  
 _Senior Flash Developer & Team Leader_
 
-- Built websites and  advergames (Flash), 
+- Built websites and advergames (Flash),
 - Rich media campaigns combining electronics & software.
 - Early AR applications with Flash's c++ runtime.
 - Worked as team lead of 6 (2012)
@@ -130,4 +124,4 @@ _Senior Flash Developer & Team Leader_
 ## Education
 
 `2005-2009`
-__Kadir Has University, Computer Science & Statistics Ba.__
+**Kadir Has University, Computer Science & Statistics Ba.**
