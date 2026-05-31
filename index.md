@@ -114,8 +114,8 @@ _Technology Programmer_
 _iOS Developer_
 
 - Built iOS app Dropio (Swift): a retail app with real-time multiplayer game mechanics.
-- Also worked on the backend (PHP 7 / Symfony).
-- Participated in product development.
+- Backend (PHP 7 / Symfony).
+- Product development.
 
 `Sep 2014 - Oct 2016`
 **CupsOn.Me**, Dublin  
