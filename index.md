@@ -6,15 +6,14 @@ title: Eralp Karaduman's CV
 # Eralp Karaduman
 Senior Full-Stack & Mobile Engineer — Web · Native Mobile · Cloud Infrastructure
 
-| __E-Mail__   | [eralp@eralpkaraduman.com](mailto:eralp@eralpkaraduman.com)              | 
-| __Website__  | [eralpkaraduman.com](https://eralpkaraduman.com)                         |
-| __Blog__     | [eralp.dev](https://eralp.dev)                                           |
+| __E-Mail__   | [eralp@eralp.dev](mailto:eralp@eralp.dev)              | 
+| __Website__  | [eralp.dev](https://eralp.dev)                         |
 | __LinkedIn__ | [linkedin.com/in/eralpkaraduman](https://linkedin.com/in/eralpkaraduman) |
 
 Engineer with 18 years shipping production software across the entire stack. Genuine depth in three areas that rarely overlap in one person:
 
-- **Frontend & web** — React SPAs, TypeScript, 7+ years building and running production web apps end to end.
-- **Native & cross-platform mobile** — 6+ years of native iOS (Swift, Obj-C) plus React Native and Flutter; apps shipped to the App Store.
+- **Frontend & Backend Full-Stack** — React, TypeScript, 9+ years building and running production web apps end to end.
+- **Native & Cross-Platform Mobile Apps** — 6+ years of native iOS (Swift, Obj-C) plus 7+ years of React Native and Flutter; apps shipped to the App Store.
 - **Cloud & infrastructure** — designing and operating server and streaming systems on AWS and GCP, with hands-on CI/CD, Docker, Kubernetes and build tooling.
 
 Increasingly focused on AI-augmented engineering: building and customizing agent-based workflows and AI tooling to ship faster across all of the above.
@@ -103,7 +102,7 @@ _Senior Flash Developer & Team Leader_
 - Early AR applications with Flash's c++ runtime.
 - Worked as team lead of 6 (2012)
 
-## Selected Projects before AI existed
+## Selected Projects created before AI coding existed
 
 - `React Native Web, Android`: [github.com/eralpkaraduman/card-quest](https://github.com/eralpkaraduman/card-quest)
 

@@ -17,16 +17,13 @@
 					if (responseJSON.assets && responseJSON.assets.length > 0) {
 						var latestReleaseUrl = responseJSON.assets[0].browser_download_url;
 					
-					 	var directLinkTextNode = document.createTextNode("Latest PDF Version: ");
-						var directLinkElement = document.createElement("a");
-						directLinkElement.text = "Click here to download"
+					 	var directLinkElement = document.createElement("a");
+						directLinkElement.text = "Download as PDF";
 						directLinkElement.href = latestReleaseUrl;
-						var directLinkContainerElement = document.createElement("div");
-						directLinkContainerElement.appendChild(directLinkTextNode);
-						directLinkContainerElement.appendChild(directLinkElement);
-					
-						var elementToReplace = document.getElementById("footer");
-						elementToReplace.appendChild(directLinkContainerElement);
+						directLinkElement.className = "download-button";
+
+						var elementToInsert = document.getElementById("cv-header");
+						elementToInsert.appendChild(directLinkElement);
 					}
 					else {
 						console.error("PDF download link injection failed: Missing asses in response");
@@ -47,16 +44,10 @@
   {% endif %}
 </head>
 <body class="markdown-body">
+<!-- "Download as PDF" button injected into #cv-header by the script above -->
+<div id="cv-header"></div>
 {{ content }}
-<p id="footer">
-  This CV was Generated on {{ site.time | date: "%B %-d %Y" }}<br>
-  Latest Version: 
-  <a href="https://{{site.github.owner_name}}.github.io/{{site.github.project_title}}">
-	{{site.github.owner_name}}.github.io/{{site.github.project_title}}
-  </a><br>
-  Source: <a href="{{site.github.repository_url}}">{{site.github.repository_url}}</a><br> 
-  Revision: {{ site.github.build_revision }}
-</p>
-<p></p>
+<hr>
+<p class="cv-updated">Updated {{ site.time | date: "%B %-d %Y" }}. <a href="https://{{site.github.owner_name}}.github.io/{{site.github.project_title}}">Get latest</a></p>
 </body>
 </html>
