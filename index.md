@@ -98,7 +98,7 @@ _Senior Flash Developer & Team Leader_
 
 ## Built with AI
 
-- `React, TanStack Start, TypeScript, SQLite/WASM, Cloudflare` : [linkedfin.net](https://linkedfin.net) — a multilingual fish-name etymology database ([source](https://github.com/eralpkaraduman/LinkedFin))
+- `React, TanStack Start, TypeScript, SQLite/WASM, Cloudflare Workers` : [linkedfin.net](https://linkedfin.net) — a multilingual fish-name etymology database ([source](https://github.com/eralpkaraduman/LinkedFin))
 
 ## Selected Projects created before AI coding existed
 
