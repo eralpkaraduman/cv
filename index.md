@@ -1,6 +1,44 @@
 ---
 layout: cv
 title: Eralp Karaduman's CV
+# Structured data — single source for the JSON-LD + SEO meta in _layouts/cv.html.
+# Nested under `jsonld` so keys like name/url don't clash with reserved Jekyll page vars.
+jsonld:
+  name: Eralp Karaduman
+  jobTitle: Senior Full-Stack & Mobile Engineer
+  description: >-
+    Senior Full-Stack & Mobile Engineer with 18 years across web, native mobile
+    (iOS, React Native, Flutter), and cloud (AWS, GCP), now focused on
+    AI-augmented engineering.
+  email: eralp@eralp.dev
+  url: https://eralp.dev
+  canonical: https://eralpkaraduman.github.io/cv/
+  employer: Starship Technologies
+  education: Kadir Has University
+  location:
+    city: Helsinki
+    country: FI
+  sameAs:
+    - https://linkedin.com/in/eralpkaraduman
+    - https://github.com/eralpkaraduman
+    - https://eralp.dev
+  knowsAbout:
+    - React
+    - React Native
+    - TypeScript
+    - JavaScript
+    - Swift
+    - Objective-C
+    - Flutter
+    - Node.js
+    - iOS development
+    - Cross-platform mobile development
+    - AWS
+    - GCP
+    - Cloudflare
+    - Docker
+    - CI/CD
+    - AI-augmented engineering
 ---
 
 # Eralp Karaduman

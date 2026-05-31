@@ -5,45 +5,38 @@
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- SEO / social / AI-agent metadata -->
-  <meta name="description" content="Eralp Karaduman — Senior Full-Stack & Mobile Engineer with 18 years across web, native iOS/React Native/Flutter, and AWS/GCP cloud, now focused on AI-augmented engineering." />
-  <meta name="author" content="Eralp Karaduman" />
-  <link rel="canonical" href="https://eralpkaraduman.github.io/cv/" />
+  <!-- SEO / social / AI-agent metadata — sourced from index.md `jsonld` frontmatter -->
+  {% assign ld = page.jsonld %}
+  <meta name="description" content="{{ ld.description | strip_newlines | escape }}" />
+  <meta name="author" content="{{ ld.name | escape }}" />
+  <link rel="canonical" href="{{ ld.canonical }}" />
   <meta property="og:type" content="profile" />
-  <meta property="og:title" content="Eralp Karaduman's CV" />
-  <meta property="og:description" content="Senior Full-Stack & Mobile Engineer — 18 years across web, native mobile, and cloud, now focused on AI-augmented engineering." />
-  <meta property="og:url" content="https://eralpkaraduman.github.io/cv/" />
-  <meta property="profile:first_name" content="Eralp" />
-  <meta property="profile:last_name" content="Karaduman" />
+  <meta property="og:title" content="{{ page.title | escape }}" />
+  <meta property="og:description" content="{{ ld.description | strip_newlines | escape }}" />
+  <meta property="og:url" content="{{ ld.canonical }}" />
+  <meta property="profile:first_name" content="{{ ld.name | split: ' ' | first | escape }}" />
+  <meta property="profile:last_name" content="{{ ld.name | split: ' ' | last | escape }}" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Eralp Karaduman's CV" />
-  <meta name="twitter:description" content="Senior Full-Stack & Mobile Engineer — 18 years across web, native mobile, and cloud, now focused on AI-augmented engineering." />
+  <meta name="twitter:title" content="{{ page.title | escape }}" />
+  <meta name="twitter:description" content="{{ ld.description | strip_newlines | escape }}" />
 
-  <!-- Machine-readable profile for CV parsers / AI agents -->
+  <!-- Machine-readable profile for CV parsers / AI agents.
+       All values come from index.md `jsonld` frontmatter, so they can't drift from the CV. -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Eralp Karaduman",
-    "jobTitle": "Senior Full-Stack & Mobile Engineer",
-    "description": "Engineer with 18 years shipping production software across web, native mobile, and cloud infrastructure, now focused on AI-augmented engineering.",
-    "email": "mailto:eralp@eralp.dev",
-    "url": "https://eralp.dev",
-    "mainEntityOfPage": "https://eralpkaraduman.github.io/cv/",
-    "worksFor": { "@type": "Organization", "name": "Starship Technologies" },
-    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Kadir Has University" },
-    "address": { "@type": "PostalAddress", "addressLocality": "Helsinki", "addressCountry": "FI" },
-    "sameAs": [
-      "https://linkedin.com/in/eralpkaraduman",
-      "https://github.com/eralpkaraduman",
-      "https://eralp.dev"
-    ],
-    "knowsAbout": [
-      "React", "TypeScript", "JavaScript", "Swift", "Objective-C",
-      "React Native", "Flutter", "Node.js", "iOS development",
-      "Cross-platform mobile development", "AWS", "GCP", "Cloudflare",
-      "Docker", "CI/CD", "AI-augmented engineering"
-    ]
+    "name": {{ ld.name | jsonify }},
+    "jobTitle": {{ ld.jobTitle | jsonify }},
+    "description": {{ ld.description | strip_newlines | jsonify }},
+    "email": "mailto:{{ ld.email }}",
+    "url": {{ ld.url | jsonify }},
+    "mainEntityOfPage": {{ ld.canonical | jsonify }},
+    "worksFor": { "@type": "Organization", "name": {{ ld.employer | jsonify }} },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": {{ ld.education | jsonify }} },
+    "address": { "@type": "PostalAddress", "addressLocality": {{ ld.location.city | jsonify }}, "addressCountry": {{ ld.location.country | jsonify }} },
+    "sameAs": {{ ld.sameAs | jsonify }},
+    "knowsAbout": {{ ld.knowsAbout | jsonify }}
   }
   </script>
 
