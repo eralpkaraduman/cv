@@ -65,7 +65,7 @@ I also write at [eralp.dev](https://eralp.dev), produce a comedy podcast, and ho
 | ---------------- | ---------------------------------------------------------------------- |
 | Mobile           | Swift, Objective-C, React Native, Flutter / Dart, native iOS & Android |
 | Frontend         | React, Redux, TypeScript, JavaScript, SPA architecture                 |
-| Backend          | Node.js, PostgreSQL, MySQL, MongoDB, Redis, Kafka,                     |
+| Backend          | Node.js, PostgreSQL, MySQL, MongoDB, Redis, Kafka                      |
 | Cloud & Infra    | GCP, AWS, Cloudflare, Docker, CI/CD, Mobile Ops, Fastlane, Jenkins     |
 | AI-Augmented Dev | AI coding agents, custom tooling & integrations, workflow automation   |
 | Languages        | TypeScript / JavaScript, Swift, Objective-C, Dart, Lua                 |
@@ -77,7 +77,7 @@ I also write at [eralp.dev](https://eralp.dev), produce a comedy podcast, and ho
 _Senior Software Engineer_
 
 - Mobile & web internal tooling products for an autonomous delivery robot fleet.
-- Drove objective key results, developped and improved products end to end from design, development, and measuring usage.
+- Drove objective key results, developed and improved products end to end from design, development, and measuring usage.
 - Built observability into tool usage to track adoption and surface friction.
 
 `March 2019 - June 2022`
@@ -110,7 +110,7 @@ _Co-Founder & iOS Developer_
 **Hipo**, Istanbul  
 _iOS Developer_
 
-- Worked on a iOS (Obj-C) social network app for collectors named "Fielguide",
+- Worked on a iOS (Obj-C) social network app for collectors named "Fieldguide",
   which included technically challenging user interfaces.
   ([App Store Link](https://itunes.apple.com/us/app/fieldguide-for-everything/id879829383?mt=8))
 
@@ -119,11 +119,11 @@ _iOS Developer_
 _Mobile (iOS & Android) Software Developer_
 
 - Worked on Adphorus, SaaS platform for facebook ads management.
-- Built native iOS (Objc-C) & Android (Java) clients for Adphorus.
+- Built native iOS (Obj-C) & Android (Java) clients for Adphorus.
 - Worked on Cevap.Tv, video how-to website.
 - Built video playback components with google video ads integration (flash, as3, IMA SDK)
 - Built iPad / iPhone app clients (Obj-C)
-- Designed streaming video infrastracture (based on Wowza & AWS)
+- Designed streaming video infrastructure (based on Wowza & AWS)
 - Built a video transcoding system (FFMpeg, node.js, AWS) & streaming-transcoding backend (node.js)
 
 `Sep 2008 - Nov 2012` **MagiClick**, Istanbul  
@@ -148,7 +148,7 @@ _Senior Flash Developer & Team Leader_
 
 - `Full Stack, Docker, NodeJS, React, JavaScript` : [github.com/eralpkaraduman/weatherapp](https://github.com/eralpkaraduman/weatherapp)
 
-- `React, JavaScript` : [github.com/eralpkaraduman/savings-projects-frontend](http://github.com/eralpkaraduman/savings-projects-frontend)
+- `React, JavaScript` : [github.com/eralpkaraduman/savings-projects-frontend](https://github.com/eralpkaraduman/savings-projects-frontend)
 
 - `Python` : [github.com/eralpkaraduman/reddit-migrator](https://github.com/eralpkaraduman/reddit-migrator)
 
@@ -156,7 +156,7 @@ _Senior Flash Developer & Team Leader_
 
 - `JavaScript, iOS, Cordova`
   - Source: [github.com/eralpkaraduman/text-wallpaper-generator](https://github.com/eralpkaraduman/text-wallpaper-generator)
-  - Web: [https://textwallpaper.online](textwallpaper.online)
+  - Web: [textwallpaper.com](https://textwallpaper.com)
   - App Store: [itunes.apple.com/fi/app/text-wallpaper/id1438319854?mt=8](https://itunes.apple.com/fi/app/text-wallpaper/id1438319854?mt=8)
 
 - `Jekyll, gh-pages, Ruby, Travis CI` : [https://github.com/eralpkaraduman/cv](https://github.com/eralpkaraduman/cv)
