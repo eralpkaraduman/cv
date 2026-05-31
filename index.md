@@ -87,7 +87,7 @@ _Senior Software Engineer_
 **[Arca](https://www.arca.so/faq)**, Remote  
 _Freelance Software Consultant_
 
-- Helped bootstrap the product from scratch, standing up the mobile and web foundations end to end.
+- Bootstrapped the product from scratch — stood up the mobile and web foundations end to end.
 - Built a cross-platform React Native app shipped to iOS & Android, plus a Next.js web application.
 - Set up the web application infrastructure on GCP.
 - Established mobile ops with Fastlane — automated iOS & Android release pipelines.
