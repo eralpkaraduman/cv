@@ -15,12 +15,24 @@ jobs:
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # ratchet:actions/checkout@v4
 
-      # Build the PDF inside the pinned image (Ruby 2.5 / Jekyll 3.7.4 / wkhtmltopdf).
-      # build-pdf writes _site/cv.pdf with the download-link JS disabled.
-      - name: Build PDF in Docker
-        run: |
-          docker build -t cv-jekyll .
-          docker run --rm -v "$PWD":/cv cv-jekyll build-pdf
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f # ratchet:docker/setup-buildx-action@v3
+
+      # Build the pinned image (Ruby 2.5 / Jekyll 3.7.4 / wkhtmltopdf), caching layers in
+      # the GitHub Actions cache so apt/bundle/pdfkit aren't reinstalled every run.
+      # load: true keeps the image in the local daemon for the run step below.
+      - name: Build image (cached)
+        uses: docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8 # ratchet:docker/build-push-action@v6
+        with:
+          context: .
+          load: true
+          tags: cv-jekyll:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      # build-pdf writes _pdfbuild/Eralp-Karaduman-CV.pdf with the download-link JS disabled.
+      - name: Build PDF
+        run: docker run --rm -v "$PWD":/cv cv-jekyll:latest build-pdf
 
       - name: Compute release tag
         id: tag
