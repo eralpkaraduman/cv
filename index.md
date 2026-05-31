@@ -39,6 +39,10 @@ jsonld:
     - GCP
     - Cloudflare
     - Docker
+    - Kubernetes
+    - Coolify
+    - Microservices
+    - Distributed architectures
     - CI/CD
     - AI-augmented engineering
 ---
@@ -69,7 +73,7 @@ I also write at [eralp.dev](https://eralp.dev), produce a comedy podcast, and ho
 | Frontend         | React, Redux, TypeScript, JavaScript, SPA architecture                 |
 | 3D / Graphics    | Three.js, Blender                                                      |
 | Backend          | Node.js, PostgreSQL, MySQL, MongoDB, Redis, Kafka                      |
-| Cloud & Infra    | GCP, AWS, Cloudflare, Docker, CI/CD, Mobile Ops, Fastlane, Jenkins     |
+| Cloud & Infra    | GCP, AWS, Cloudflare, Coolify, Docker, Kubernetes, Microservices, Distributed Architectures, CI/CD, Mobile Ops, Fastlane, Jenkins |
 | AI-Augmented Dev | AI coding agents, custom tooling & integrations, workflow automation   |
 | Languages        | TypeScript / JavaScript, Swift, Objective-C, Dart, Lua                 |
 
