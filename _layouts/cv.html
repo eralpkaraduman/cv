@@ -12,7 +12,7 @@
   {% endif %}
 </head>
 <body class="markdown-body">
-{% if site.shouldInjectCvDownloadLink != "NO" %}<div id="cv-header"><a class="download-button" href="https://github.com/{{ site.github.owner_name }}/{{ site.github.project_title }}/releases/latest/download/cv.pdf">Download as PDF</a></div>{% endif %}
+{% if site.shouldInjectCvDownloadLink != "NO" %}<div id="cv-header"><a class="download-button" data-umami-event="PDF Download" href="https://github.com/{{ site.github.owner_name }}/{{ site.github.project_title }}/releases/latest/download/cv.pdf">Download as PDF</a></div>{% endif %}
 {{ content }}
 <hr>
 <p class="cv-updated">Updated {{ site.time | date: "%B %-d %Y" }}. <a href="https://{{site.github.owner_name}}.github.io/{{site.github.project_title}}">Get latest</a></p>
