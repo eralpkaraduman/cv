@@ -28,20 +28,18 @@ replica of github's markdown style. And it is able to auto-generate a PDF versio
 
 ## Automatic PDF version generation
 
-If you configure the GitHub Action, it creates a pdf version then create a release on github. You can always link to the latest release by adding the sufffix `/releases/latest` to repo url.  
-For example;  
+The GitHub Action in `.github/workflows/ruby.yml` builds the PDF (inside the
+Docker image) and publishes it as a GitHub release on every push to `gh-pages`.
+You can always link to the latest release by adding the suffix
+`/releases/latest` to the repo url. For example;  
 github.com/your-username-here/cv[/releases/latest](https://github.com/eralpkaraduman/cv/releases/latest)
 
-To enable this;  
-- Go to [github.com/settings/tokens](https://github.com/settings/tokens)
-- Generate a personal access token, give it `public_repo` permission
-- Go to the secrets settings of this github repo (the one that is your clone)
-  - https://github.com/your-username-here/cv/settings/secrets/actions
-  - Remember to change the username in the url above
-- Click "New repository secret" 
-- Name it `GH_OAUTH_TOKEN`
-- Paste the token you generated in the earlier step here
-- Next time you make a change, it should create a new release under `/releases` page of your github repo
+No setup is required: the workflow uses the built-in `GITHUB_TOKEN` (granted
+`contents: write` in the workflow file) to create the release — there's no
+personal access token or repository secret to configure. Just make sure the
+repo's **Settings → Actions → General → Workflow permissions** is set to
+"Read and write permissions".
+
 - Latest release is conveniently always at `/releases/latest`
 
 
