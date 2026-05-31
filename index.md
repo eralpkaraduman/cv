@@ -90,7 +90,7 @@ _Senior Software Engineer_
 - Built observability into tool usage to track adoption and surface friction.
 
 `Nov 2024 - July 2025`
-**[Arca](https://www.arca.so/faq)**, Hybrid  
+**[Arca](https://www.arca.so/faq)**, Helsinki (Hybrid)  
 _Freelance Software Consultant_
 
 - Bootstrapped the product from scratch — stood up the mobile and web foundations end to end.
