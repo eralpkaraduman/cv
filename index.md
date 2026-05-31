@@ -96,6 +96,10 @@ _Senior Flash Developer & Team Leader_
 - Early AR applications with Flash's c++ runtime.
 - Worked as team lead of 6 (2012)
 
+## Built with AI
+
+- `React, TanStack Start, TypeScript, SQLite/WASM, Cloudflare` : [linkedfin.net](https://linkedfin.net) — a multilingual fish-name etymology database ([source](https://github.com/eralpkaraduman/LinkedFin))
+
 ## Selected Projects created before AI coding existed
 
 - `React Native Web, Android`: [github.com/eralpkaraduman/card-quest](https://github.com/eralpkaraduman/card-quest)
