@@ -4,51 +4,43 @@ title: Eralp Karaduman's CV
 ---
 
 # Eralp Karaduman
-Generalist Software Developer
+Senior Full-Stack & Mobile Engineer — Web · Native Mobile · Cloud Infrastructure
 
 | __E-Mail__   | [eralp@eralpkaraduman.com](mailto:eralp@eralpkaraduman.com)              | 
 | __Website__  | [eralpkaraduman.com](https://eralpkaraduman.com)                         |
 | __Blog__     | [eralp.dev](https://eralp.dev)                                           |
 | __LinkedIn__ | [linkedin.com/in/eralpkaraduman](https://linkedin.com/in/eralpkaraduman) |
-| __Twitter__  | [twitter.com/eralpkaraduman](https://twitter.com/eralpkaraduman)         |
 
-## TLDR;
+Engineer with 18 years shipping production software across the entire stack. Genuine depth in three areas that rarely overlap in one person:
 
-- 17+ years in software dev
-- Made web & mobile apps as a consultant using React, React Native and Flutter.
-- Full stack web developer for about 7+ years (react, psql, mongo, nodejs)
-- Worked in games industry on internal tools, CI/CD and infrastructure for about 2 years.
-- Developed native iOS apps for about 6 years (swift, objc)
-- Worked on my own startup for a brief time
-- I was a Adobe Flash, ActionScript 2/3 developer when it used to be cool.
-- I do technical writing at my blog [eralp.dev](eralp.dev), produce a comedy podcast and host live twitch shows about software development.
-- See below for code examples, open source personal projects.
+- **Frontend & web** — React SPAs, TypeScript, 7+ years building and running production web apps end to end.
+- **Native & cross-platform mobile** — 6+ years of native iOS (Swift, Obj-C) plus React Native and Flutter; apps shipped to the App Store.
+- **Cloud & infrastructure** — designing and operating server and streaming systems on AWS and GCP, with hands-on CI/CD, Docker, Kubernetes and build tooling.
 
-## Currently
+Increasingly focused on AI-augmented engineering: building and customizing agent-based workflows and AI tooling to ship faster across all of the above.
 
-Based in Helsinki, Finland. Now working on mobile internal tools at an autonomus delivery robot company.
+I also write at [eralp.dev](https://eralp.dev), produce a comedy podcast, and host live Twitch shows about software development.
 
+## Core Skills
 
-### Specialized in
+| Area              | Technologies                                                                   |
+|-------------------|--------------------------------------------------------------------------------|
+| Mobile            | Swift, Objective-C, React Native, Flutter / Dart, native iOS & Android         |
+| Frontend          | React, Redux, TypeScript, JavaScript, SPA architecture                         |
+| Backend           | Node.js, PostgreSQL, MongoDB, PHP / Symfony                                    |
+| Cloud & Infra     | GCP, AWS, Docker, CI/CD pipelines, streaming & transcoding infrastructure      |
+| AI-Augmented Dev  | AI coding agents, custom tooling & integrations, workflow automation           |
+| Languages         | TypeScript / JS, Swift, Obj-C, Dart, Python, PHP, C#                           |
 
-- Building digital products.
-- Cross Platform Android & iOS development with React Native and Flutter
-- Native iOS development with Swift
-- Web SPA's with javascript / React.
-- Building server applications with node.js on major cloud platforms.
-
-
-## Education
-
-`2005-2009`
-__Kadir Has University, Computer Science & Statistics Ba.__
-
-
-## Occupation
+## Experience
 
 `June 2022 - now`
 __Starship Technologies__, Helsinki  
 _Senior Software Engineer_
+
+- Mobile internal tooling for an autonomous delivery robot fleet.
+- Drove internal tool adoption from 20% to 80% of key users by interviewing impactful users to identify pain points and shipping fixes end-to-end on my own.
+- Built observability into tool usage to track adoption and surface friction.
 
 
 `March 2019 - June 2022`
@@ -111,7 +103,7 @@ _Senior Flash Developer & Team Leader_
 - Early AR applications with Flash's c++ runtime.
 - Worked as team lead of 6 (2012)
 
-## Projects & Code Examples
+## Selected Projects before AI existed
 
 - `React Native Web, Android`: [github.com/eralpkaraduman/card-quest](https://github.com/eralpkaraduman/card-quest)
 
@@ -135,3 +127,8 @@ _Senior Flash Developer & Team Leader_
 - `Jekyll, gh-pages, Ruby, Travis CI` : [https://github.com/eralpkaraduman/cv](https://github.com/eralpkaraduman/cv)
 
 - `Unity3D, C#, Objective C` : [github.com/eralpkaraduman/LennyTTSUnity](https://github.com/eralpkaraduman/LennyTTSUnity)
+
+## Education
+
+`2005-2009`
+__Kadir Has University, Computer Science & Statistics Ba.__

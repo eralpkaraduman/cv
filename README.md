@@ -68,3 +68,45 @@ this is how you'd get started;
 
 `bundle install`  
 `bundle exec jekyll serve --host=0.0.0.0`
+
+
+## Running locally with Docker
+
+If you'd rather not install Ruby/Jekyll/wkhtmltopdf on your machine, there's a
+`Dockerfile` that pins the same versions used in CI (Ruby 2.5 / Bundler 1.16.5 /
+Jekyll 3.7.4) and bundles `wkhtmltopdf` for PDF generation. The image targets
+`linux/amd64`; on Apple Silicon it runs under emulation.
+
+Build the image once:
+
+```sh
+docker build --platform linux/amd64 -t cv-jekyll .
+```
+
+**Preview the site** with live reload at http://localhost:4000 (the repo is
+bind-mounted, so edits to `index.md` rebuild automatically). The PDF-download
+button is injected here, same as the live site:
+
+```sh
+docker run -d --platform linux/amd64 --name cv-jekyll -p 4000:4000 -v "$PWD":/cv cv-jekyll
+```
+
+Stop / restart it with:
+
+```sh
+docker rm -f cv-jekyll
+```
+
+**Generate the PDF** (writes `_site/cv.pdf` on the host, JS injection disabled to
+match CI):
+
+```sh
+docker run --rm --platform linux/amd64 -v "$PWD":/cv cv-jekyll build-pdf
+```
+
+Notes:
+- The download button links to the latest **GitHub release** PDF, not the local
+  `_site/cv.pdf` — so locally it points at whatever CI last published.
+- The base image is Debian buster (EOL), so the `Dockerfile` repoints `apt` at
+  `archive.debian.org`; `wkhtmltopdf` uses the patched-Qt build and runs headless
+  (no `xvfb` needed, unlike CI).

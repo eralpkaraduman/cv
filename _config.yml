@@ -5,7 +5,9 @@ exclude:
   - README.md
   - LICENSE
   - make_pdf.rb 
-  - Gemfile 
+  - Gemfile
   - Gemfile.lock
+  - Dockerfile
+  - .dockerignore
 plugins:
   - "jekyll-github-metadata"
