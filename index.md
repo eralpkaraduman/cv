@@ -65,7 +65,7 @@ Engineer with 18 years shipping production software across the entire stack. Gen
 
 Increasingly focused on AI-augmented engineering: building and customizing agent-based workflows and AI tooling to ship faster across all of the above.
 
-I also write at [eralp.dev](https://eralp.dev), produce a comedy podcast, and host live Twitch shows about software development.
+I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https://open.spotify.com/show/6Ace2VvsbkPKFkgqy4NWUc?si=baaec7c9731e4b77), and host live Twitch shows about software development.
 
 ## Core Skills
 
@@ -90,7 +90,7 @@ _Senior Software Engineer_
 - Built observability into tool usage to track adoption and surface friction.
 
 `Nov 2024 - July 2025`
-**[Arca](https://www.arca.so/faq)** (Lifeline Ventures–backed), Helsinki (Hybrid)  
+**[Arca](https://www.arca.so)** (Lifeline Ventures–backed), Helsinki (Hybrid)  
 _Freelance Software Consultant_
 
 - Bootstrapped the product from scratch — stood up the mobile and web foundations end to end.
