@@ -1,7 +1,7 @@
 ---
 layout: cv
 title: Eralp Karaduman's CV
-# Structured data — single source for the JSON-LD + SEO meta in _layouts/cv.html.
+# Structured data: single source for the JSON-LD + SEO meta in _layouts/cv.html.
 # Nested under `jsonld` so keys like name/url don't clash with reserved Jekyll page vars.
 jsonld:
   name: Eralp Karaduman
@@ -51,7 +51,7 @@ jsonld:
 
 # Eralp Karaduman
 
-Senior Full-Stack & Mobile Engineer — Web · Native Mobile · Cloud Infrastructure
+Senior Full-Stack & Mobile Engineer · Web · Native Mobile · Cloud Infrastructure
 
 | **E-Mail** | [eralp@eralp.dev](mailto:eralp@eralp.dev) |
 | **Website** | [eralp.dev](https://eralp.dev) |
@@ -59,9 +59,9 @@ Senior Full-Stack & Mobile Engineer — Web · Native Mobile · Cloud Infrastruc
 
 Engineer with 18 years shipping production software across the entire stack. Genuine depth in three areas that rarely overlap in one person:
 
-- **Frontend & Backend Full-Stack** — React, TypeScript, 9+ years building and running production web apps end to end.
-- **Native & Cross-Platform Mobile Apps** — 6+ years of native iOS (Swift, Obj-C) plus 7+ years of React Native and Flutter; apps shipped to the App Store.
-- **Cloud & infrastructure** — designing and operating server and streaming systems on AWS and GCP, with hands-on CI/CD, Docker, Kubernetes and build tooling.
+- **Frontend & Backend Full-Stack**: React, TypeScript, 9+ years building and running production web apps end to end.
+- **Native & Cross-Platform Mobile Apps**: 6+ years of native iOS (Swift, Obj-C) plus 7+ years of React Native and Flutter; apps shipped to the App Store.
+- **Cloud & infrastructure**: designing and operating server and streaming systems on AWS and GCP, with hands-on CI/CD, Docker, Kubernetes and build tooling.
 
 Increasingly focused on AI-augmented engineering: building and customizing agent-based workflows and AI tooling to ship faster across all of the above.
 
@@ -85,22 +85,26 @@ I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https
 **Starship Technologies**, Helsinki  
 _Senior Software Engineer_
 
-- Mobile & web internal tooling products for an autonomous delivery robot fleet.
-- Drove objective key results, developed and improved products end to end across design, development, and usage measurement.
-- Built observability into tool usage to track adoption and surface friction.
+- Built and solely owned multiple mobile and web operational observability and management internal tools used by 200+ people across the organisation, providing operational visibility into the autonomous delivery fleet.
+- Grew weekly active users from 45% to 85% through iterative product improvements, taking the tool from concept to company-wide adoption entirely independently.
+- Instrumented tool usage across internal products to surface friction and drive adoption, feeding findings back into the product roadmap.
+- Worked full-stack and end to end across React Native mobile and Node.js/TypeScript backend, owning product development from objective key results through to measuring impact and collecting user feedback.
 
 `Nov 2024 - July 2025`
 **[Arca](https://www.arca.so)** (Lifeline Ventures–backed), Helsinki (Hybrid)  
 _Freelance Software Consultant_
 
-- Bootstrapped the product from scratch — stood up the mobile and web foundations end to end.
-- Built a cross-platform React Native app shipped to iOS & Android, plus a Next.js web application.
-- Set up the web application infrastructure on GCP.
-- Established mobile ops with Fastlane — automated iOS & Android release pipelines.
+- Sole mobile engineer; bootstrapped the full product in ~6 weeks: React Native app shipped to iOS & Android, Next.js web application, and GCP infrastructure.
+- Established automated iOS & Android release pipelines with Fastlane from day one.
+- Arca is a content-curation platform where people collect content from any source into personalized "portals" and share them with a community of curators.
 
 `March 2019 - June 2022`
 **Qvik**, Helsinki  
 _Principal Software Engineer_
+
+- Led development of a TV companion game for a major Finnish public broadcaster, built in React Native and React Native Web for simultaneous mobile and web deployment.
+- Developed an investment application in Flutter for a Finnish investment company.
+- Contributed to tech sales alongside engineering, involved in scoping, pitching, and winning client projects.
 
 `Jan 2017 - February 2019`
 **Seriously Digital Entertainment**, Helsinki  
@@ -155,7 +159,7 @@ _Senior Flash Developer & Team Leader_
 
 ## Built with AI
 
-- `React, TanStack Start, TypeScript, SQLite/WASM, Cloudflare Workers` : [linkedfin.net](https://linkedfin.net) — a multilingual fish-name etymology database ([source](https://github.com/eralpkaraduman/LinkedFin))
+- `React, TanStack Start, TypeScript, SQLite/WASM, Cloudflare Workers` : [linkedfin.net](https://linkedfin.net): a multilingual fish-name etymology database ([source](https://github.com/eralpkaraduman/LinkedFin))
 
 ## Selected Projects created before AI coding existed
 
