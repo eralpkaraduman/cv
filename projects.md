@@ -1,7 +1,7 @@
 ---
 layout: cv
 title: Eralp Karaduman's Projects
-published: false
+published: true
 ---
 
 ## Projects
