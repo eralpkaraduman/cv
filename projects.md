@@ -61,11 +61,48 @@ _Contributor → owner · Node.js, TypeScript, Kafka, GraphQL, MongoDB, push not
 
 ### Arca
 
-_To be filled in._
+Freelance engagement as the sole mobile engineer, bootstrapping a content-curation app and its release infrastructure.
+
+**Cross-platform mobile app & share-sheet extension**  
+_Freelance, sole mobile engineer · React Native, TypeScript, iOS & Android_
+
+- Built the React Native app shipped to iOS & Android, including a native share-sheet extension so users can save content into Arca from any other app.
+
+**Mobile release infrastructure & backend support**  
+_React Native, Fastlane, CodePush (OTA), GCP_
+
+- Set up mobile CI/CD with Fastlane, automating iOS & Android release pipelines.
+- Configured push notifications and the Apple Developer account from scratch.
+- Set up over-the-air (OTA) updates with CodePush.
+- Helped build background task queues in the GCP backend.
 
 ### Qvik
 
-_To be filled in._
+Consultancy work across several client engagements, plus internal technical sales.
+
+**YLE (Finnish public broadcaster), creative content**  
+_React Native, TypeScript, React, Redux, Clojure_
+
+- **Hyvät katsojat**: TV show companion game built in React Native, embedded inside the yle.fi React Native TypeScript app. Contributed to the CMS backend in Clojure.
+- **Elämäni biisi**: TV show companion game built in React Native, embedded inside the yle.fi React Native TypeScript app. Contributed to the CMS backend in Clojure.
+- **"Tehtävä" quiz / voting / form tool**: Clojure backend with a TypeScript web frontend (React + Redux) driving a complex state system. The frontend is embedded into multiple web apps and also used as an internal tool, and the backend doubles as the backend for the TV game companion apps.
+
+**OVORO, crypto investment app**  
+_Flutter, Provider, Firebase_
+
+- Built a crypto investment app from scratch in Flutter using Provider and InheritedWidgets, helping the client bootstrap their app business.
+- Set up Firebase auth and notifications, the first-time user experience, and screen flows for critical user actions.
+
+**Hype Hype / Frogmind, mobile game-creation app**  
+_Flutter (embedded in a custom game engine)_
+
+- Worked on Hype Hype, a mobile game-creation and creator-economy app, helping the client build their UI in Flutter on top of their custom game engine (Flutter embedded into the engine).
+- Built critical UX flows such as content moderation and content-reporting UI.
+
+**Technical sales**  
+_Internal Qvik work_
+
+- Worked on technical sales: project scope, time estimates, and offer pricing for a major global retail business and a major bank in Finland.
 
 ### Seriously Digital Entertainment
 
@@ -73,7 +110,16 @@ _To be filled in._
 
 ### DealDash
 
-_To be filled in._
+**DealDash mobile app**  
+_Swift, PHP_
+
+- Worked on the company's main mobile app in Swift, contributing to multiple new features and its PHP backend.
+
+**Dropio**  
+_Swift, PHP / Symfony, Node.js, Socket.IO_
+
+- New business experiment: a new app with real-time Dutch auction bidding.
+- App built in Swift; backend in PHP / Symfony plus Node.js with Socket.IO for realtime communication.
 
 ### CupsOn.Me
 
@@ -81,7 +127,11 @@ _To be filled in._
 
 ### Hipo
 
-_To be filled in._
+**Chroma, app for collectors**  
+_Objective-C_
+
+- Built a mobile app for collectors called Chroma in Objective-C, with complex UI/UX flows that were ahead of their time.
+- (See also Fieldguide in the CV experience section.)
 
 ### Adphorus / Publik
 
