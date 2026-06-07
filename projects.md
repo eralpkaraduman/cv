@@ -223,3 +223,12 @@ _FLARToolKit, Papervision3D, ActionScript 3_
 - Built early augmented-reality experiences with FLARToolKit (the first Flash-based Augmented Reality library), doing webcam marker detection well ahead of its time.
 - One registered marker patterns for 29 letter stickers so players could complete a collection by showing each sticker to the webcam.
 - Another recognised a marker and mounted an animated 3D object (Papervision3D) onto the live camera view where the sticker appeared, like a toy.
+
+## Personal projects
+
+**[LinkedFin](https://linkedfin.net): multilingual fish-name etymology database**  
+_Personal project, solo · React 19, TanStack (Start/Router/Query), TypeScript, SQLite-WASM, Kysely, Fuse.js, Cloudflare Pages + Pages Functions + D1, Vite, Tailwind ([source](https://github.com/eralpkaraduman/LinkedFin))_
+
+- A backendless single-page app: the entire fish-name etymology database ships as a SQLite file that the browser loads and queries fully client-side via the official SQLite WASM build (Kysely for queries, Fuse.js for fuzzy search), so all search and browsing happen in the frontend with no server or API.
+- Solved per-page link previews, which a JS-only SPA normally cannot have because crawlers do not run the client code: a Cloudflare Pages Function injects per-page Open Graph / Twitter meta tags via HTMLRewriter, and a separate function renders the preview image dynamically at the edge (workers-og).
+- Backed the OG data at the edge with a Cloudflare D1 database, kept in sync with the source SQLite database by a CI step that replicated it into D1; later simplified the pipeline to a build-time JSON snapshot bundled into the functions.
