@@ -85,56 +85,49 @@ I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https
 **[Starship Technologies](https://www.starship.xyz/)**, Helsinki  
 _Senior Software Engineer_
 
-- Build and own multiple internal web, mobile, and backend tools (React / React Native, Node/TypeScript/GraphQL, Kafka microservices) giving field and operations teams across 9 countries visibility into and control over the autonomous delivery fleet.
-- Take products end to end and single-handedly to adoption (one ops-overview tool reached 100% of its target users): real-time dashboards, a React Native field-app re-platform with CI/CD from scratch, a visual robot inspection and damage-reporting flow, hardware integrations, and certificate-based device sign-in, owning metrics, impact, and feedback.
+- Full-stack engineer building and owning internal web, mobile, and backend tools (React/React Native, Node/TypeScript/GraphQL, Kafka) that run the autonomous delivery fleet across 9 countries; drove internal-tool adoption to 100% of its target users, growing weekly active users (WAU) to a peak 140% above its low.
 
 `March 2019 - June 2022`
 **[Qvik](https://qvik.com)**, Helsinki  
 _Principal Software Engineer_
 
-- Led React Native TV companion games for YLE (Finnish public broadcaster) and, on my own initiative, re-architected them into React Native Web apps embedded as WebViews so they loaded on demand without bloating the host app; also built a Flutter crypto investment app (OVORO).
-- Contributed to technical sales, scoping, estimates, and pricing, for major retail and banking clients.
+- Led React Native TV companion games for YLE (Finnish public broadcaster) and, on my initiative, re-architected them to React Native Web for on-demand loading; built a Flutter crypto investment app (Ovoro) and contributed to technical sales.
 
 `Jan 2017 - February 2019`
 **Seriously Digital Entertainment** (later acquired by Playtika), Helsinki  
 _Technology Programmer_
 
-- Built a live-content and A/B-testing CMS (Java + React with Unity editor tooling) that shipped seasonal content and experiments to a mobile game at runtime, with no app-store release.
-- Built native Unity3D plugins (iOS/Android), ELK operations dashboards on GCP/Kubernetes, and an on-prem Jenkins CI/CD pipeline with on-device performance testing.
+- Built a live-content/A-B-testing CMS (Java + React + Unity editor tooling), native Unity3D plugins, ELK ops dashboards on GCP/Kubernetes, and an on-prem Jenkins CI/CD pipeline with on-device performance testing.
 
 `Sep 2015 - Jan 2017`
 **[DealDash](https://dealdash.com)**, Helsinki  
 _iOS Developer_
 
-- Contributed features to the company's main iOS app (Swift) and its PHP backend.
-- Built Dropio, a new app with live real-time auction bidding (Swift + Node.js/Socket.IO + PHP/Symfony), including anti-cheat bid integrity and automated bidder bots.
+- Built features for the company's main iOS app (Swift/PHP) and Dropio, a real-time auction app (Swift + Node.js/Socket.IO + PHP/Symfony) with anti-cheat bid integrity and automated bidder bots.
 
 `Sep 2014 - Oct 2016`
 **CupsOn.Me**, Dublin  
 _Co-Founder & Mobile Developer_
 
-- Co-founded a mobile-first platform for discovering and buying from third-wave coffee shops; built both native apps (iOS Obj-C, Android Java).
-- Shipped in-app credit purchasing with a 3D Secure flow and in-venue code redemption; launched in Dublin, London, and Istanbul.
+- Co-founded a mobile-first third-wave-coffee discovery & purchasing platform; built the iOS & Android apps with in-app payments (3D Secure) and in-venue code redemption; launched in Dublin, London, and Istanbul.
 
 `Apr 2015 - Aug 2015`
 **Hipo**, Istanbul  
 _iOS Developer_
 
-- Built Chroma (a.k.a. Fieldguide), an Obj-C iOS social network for collectors with image-heavy galleries and high-performance, memory-efficient scrolling. ([App Store](https://itunes.apple.com/us/app/fieldguide-for-everything/id879829383?mt=8))
+- Built Chroma (Fieldguide), an Obj-C iOS social network for collectors with high-performance, memory-efficient image galleries. ([App Store](https://itunes.apple.com/us/app/fieldguide-for-everything/id879829383?mt=8))
 
 `November 2012 - Apr 2015`
 **Adphorus / Publik** (later acquired by Sojern), Istanbul  
 _Mobile (iOS & Android) Software Developer_
 
-- Built native iOS (Obj-C) & Android (Java) clients for Adphorus, a Facebook ads-management SaaS.
-- For Cevap.Tv (video platform): built the iOS app, a Wowza adaptive HLS/FLV streaming backend on AWS, a Flash/AS3 player with Google IMA ads, and an FFmpeg/Node.js transcoding pipeline.
+- Built native iOS (Obj-C) & Android (Java) clients for Adphorus (Facebook ads SaaS) and the Cevap.Tv video platform (Wowza HLS/FLV streaming on AWS, Flash/AS3 player with Google IMA ads, FFmpeg/Node.js transcoding).
 
 `Sep 2008 - Nov 2012`
 **[MagiClick](https://www.magiclick.com/)**, Istanbul  
 _Senior Flash Developer & Team Leader_
 
-- Built Flash websites, multiplayer advergames (Red5, Box2D, Papervision3D), and interactive in-store installations with Arduino and sensors.
-- Built early augmented-reality experiences with FLARToolKit; led a team of 6 (2012).
+- Built web experiences with Flash, multiplayer advergames (Red5, Box2D, Papervision3D), interactive in-store installations with Arduino and sensors, and early FLARToolKit augmented reality; led a team of 6.
 
 ## Education
 
@@ -212,7 +205,7 @@ _Contributor · React Native, React Native Web, TypeScript, React, Redux, Clojur
 - **React Native → React Native Web (my initiative)**: when the client wanted the games removable between show seasons to cut the app's asset footprint, I proposed and built the move from React Native into a React Native Web shell, turning each game into a standalone web app embedded back into the yle.fi app as a WebView so its content loaded only on demand without bloating the host app. This became a reusable pattern for building further apps the same way.
 - **"Tehtävä" quiz / voting / form tool**: Clojure backend with a TypeScript web frontend (React + Redux) driving a complex state system. The frontend is embedded into multiple web apps and also used as an internal tool, and the backend doubles as the backend for the TV game companion apps.
 
-**OVORO, crypto investment app**  
+**Ovoro, crypto investment app**  
 _Contributor · Flutter, Provider, Firebase_
 
 - Built a crypto investment app from scratch in Flutter using Provider and InheritedWidgets, helping the client bootstrap their app business.
