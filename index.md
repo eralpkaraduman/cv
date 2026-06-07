@@ -79,112 +79,69 @@ I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https
 | AI-Augmented Dev | AI coding agents, custom tooling & integrations, workflow automation   |
 | Languages        | TypeScript / JavaScript, Swift, Objective-C, Dart, Lua                 |
 
-## Experience
+## Work Experience
 
 `June 2022 - now`
 **Starship Technologies**, Helsinki  
 _Senior Software Engineer_
 
-- Built and solely owned multiple mobile and web operational observability and management internal tools used by 200+ people across the organisation, providing operational visibility into the autonomous delivery fleet.
-- Grew weekly active users from 45% to 85% through iterative product improvements, taking the tool from concept to company-wide adoption entirely independently.
-- Instrumented tool usage across internal products to surface friction and drive adoption, feeding findings back into the product roadmap.
-- Worked full-stack and end to end across React Native mobile and Node.js/TypeScript backend, owning product development from objective key results through to measuring impact and collecting user feedback.
+- Build and own multiple internal web, mobile, and backend tools (React / React Native, Node/TypeScript/GraphQL, Kafka microservices) giving field and operations teams across 9 countries visibility into and control over the autonomous delivery fleet.
+- Take products end to end and single-handedly to adoption (one ops-overview tool reached 100% of its target users): real-time dashboards, a React Native field-app re-platform with CI/CD from scratch, a visual robot inspection and damage-reporting flow, hardware integrations, and certificate-based device sign-in, owning metrics, impact, and feedback.
 
 `Nov 2024 - July 2025`
 **[Arca](https://www.arca.so)** (Lifeline Ventures–backed), Helsinki (Hybrid)  
 _Freelance Software Consultant_
 
-- Sole mobile engineer; bootstrapped the full product in ~6 weeks: React Native app shipped to iOS & Android, Next.js web application, and GCP infrastructure.
-- Established automated iOS & Android release pipelines with Fastlane from day one.
-- Arca is a content-curation platform where people collect content from any source into personalized "portals" and share them with a community of curators.
+- Sole engineer; bootstrapped Arca, a content-curation product, end to end in ~6 weeks: React Native app (iOS & Android) with a native share-sheet extension, a Next.js web app, and GCP backend.
+- Set up automated iOS & Android release pipelines (Fastlane) and OTA updates (CodePush) from day one.
 
 `March 2019 - June 2022`
 **Qvik**, Helsinki  
 _Principal Software Engineer_
 
-- Led development of a TV companion game for a major Finnish public broadcaster, built in React Native and React Native Web for simultaneous mobile and web deployment.
-- Developed an investment application in Flutter for a Finnish investment company.
-- Contributed to tech sales alongside engineering, involved in scoping, pitching, and winning client projects.
+- Led a React Native / React Native Web TV companion game for YLE (Finnish public broadcaster); built a Flutter crypto investment app (OVORO).
+- Contributed to technical sales, scoping, estimates, and pricing, for major retail and banking clients.
 
 `Jan 2017 - February 2019`
 **Seriously Digital Entertainment**, Helsinki  
 _Technology Programmer_
 
-- Worked on web-technology-based internal tools (React, Redux, Node.js, TypeScript, Docker).
-- Developed native plugins for Unity3D (iOS/Obj-C & Android/Java).
+- Built a live-content and A/B-testing CMS (Java + React with Unity editor tooling) that shipped seasonal content and experiments to a mobile game at runtime, with no app-store release.
+- Built native Unity3D plugins (iOS/Android), ELK operations dashboards on GCP/Kubernetes, and an on-prem Jenkins CI/CD pipeline with on-device performance testing.
 
 `Sep 2015 - Jan 2017`
 **DealDash**, Helsinki  
 _iOS Developer_
 
-- Built iOS app Dropio (Swift): a retail app with real-time multiplayer game mechanics.
-- Backend (PHP 7 / Symfony).
-- Product development.
+- Contributed features to the company's main iOS app (Swift) and its PHP backend.
+- Built Dropio, a new app with live real-time auction bidding (Swift + Node.js/Socket.IO + PHP/Symfony), including anti-cheat bid integrity and automated bidder bots.
 
 `Sep 2014 - Oct 2016`
 **CupsOn.Me**, Dublin  
 _Co-Founder & iOS Developer_
 
-- Co-founded & developed (iOS - Obj-C) a mobile-first discovery &
-  purchasing platform for 3rd-wave coffee enthusiasts.
+- Co-founded a mobile-first platform for discovering and buying from third-wave coffee shops; built both native apps (iOS Obj-C, Android Java).
+- Shipped in-app credit purchasing with a 3D Secure flow and in-venue code redemption; launched in Dublin, London, and Istanbul.
 
 `Apr 2015 - Aug 2015`
 **Hipo**, Istanbul  
 _iOS Developer_
 
-- Worked on an iOS (Obj-C) social network app for collectors named "Fieldguide",
-  which included technically challenging user interfaces.
-  ([App Store Link](https://itunes.apple.com/us/app/fieldguide-for-everything/id879829383?mt=8))
+- Built Chroma (a.k.a. Fieldguide), an Obj-C iOS social network for collectors with image-heavy galleries and high-performance, memory-efficient scrolling. ([App Store](https://itunes.apple.com/us/app/fieldguide-for-everything/id879829383?mt=8))
 
 `November 2012 - Apr 2015`
 **Adphorus / Publik**, Istanbul  
 _Mobile (iOS & Android) Software Developer_
 
-- Worked on Adphorus, a SaaS platform for Facebook ads management.
-- Built native iOS (Obj-C) & Android (Java) clients for Adphorus.
-- Worked on Cevap.Tv, a video how-to website.
-- Built video playback components with Google video ads integration (Flash, AS3, IMA SDK)
-- Built iPad / iPhone app clients (Obj-C)
-- Designed streaming video infrastructure (based on Wowza & AWS)
-- Built a video transcoding system (FFmpeg, Node.js, AWS) & streaming-transcoding backend (Node.js)
+- Built native iOS (Obj-C) & Android (Java) clients for Adphorus, a Facebook ads-management SaaS.
+- For Cevap.Tv (video platform): built the iOS app, a Wowza adaptive HLS/FLV streaming backend on AWS, a Flash/AS3 player with Google IMA ads, and an FFmpeg/Node.js transcoding pipeline.
 
 `Sep 2008 - Nov 2012`
 **MagiClick**, Istanbul  
 _Senior Flash Developer & Team Leader_
 
-- Built websites and advergames (Flash).
-- Rich media campaigns combining electronics & software.
-- Early AR applications with Flash's C++ runtime.
-- Worked as team lead of 6 (2012)
-
-## Built with AI
-
-- `React, TanStack Start, TypeScript, SQLite/WASM, Cloudflare Workers` : [linkedfin.net](https://linkedfin.net): a multilingual fish-name etymology database ([source](https://github.com/eralpkaraduman/LinkedFin))
-
-## Selected Projects created before AI coding existed
-
-- `React Native Web, Android`: [github.com/eralpkaraduman/card-quest](https://github.com/eralpkaraduman/card-quest)
-
-- `Flutter, Dart, iOS, Android` : [github.com/eralpkaraduman/FlutterGameKid](https://github.com/eralpkaraduman/FlutterGameKid)
-
-- `Flutter, Dart, iOS, Android` : [github.com/eralpkaraduman/event_dot_pizza](https://github.com/eralpkaraduman/event_dot_pizza)
-
-- `Full Stack, Docker, NodeJS, React, JavaScript` : [github.com/eralpkaraduman/weatherapp](https://github.com/eralpkaraduman/weatherapp)
-
-- `React, JavaScript` : [github.com/eralpkaraduman/savings-projects-frontend](https://github.com/eralpkaraduman/savings-projects-frontend)
-
-- `Python` : [github.com/eralpkaraduman/reddit-migrator](https://github.com/eralpkaraduman/reddit-migrator)
-
-- `React Native, Objective C` : [github.com/speechgrinder/react-native-sfspeechrecognizer](https://github.com/speechgrinder/react-native-sfspeechrecognizer)
-
-- `JavaScript, iOS, Cordova`
-  - Source: [github.com/eralpkaraduman/text-wallpaper-generator](https://github.com/eralpkaraduman/text-wallpaper-generator)
-  - Web: [textwallpaper.com](https://textwallpaper.com)
-  - App Store: [itunes.apple.com/fi/app/text-wallpaper/id1438319854?mt=8](https://itunes.apple.com/fi/app/text-wallpaper/id1438319854?mt=8)
-
-- `Jekyll, gh-pages, Ruby, Travis CI` : [https://github.com/eralpkaraduman/cv](https://github.com/eralpkaraduman/cv)
-
-- `Unity3D, C#, Objective C` : [github.com/eralpkaraduman/LennyTTSUnity](https://github.com/eralpkaraduman/LennyTTSUnity)
+- Built Flash websites, multiplayer advergames (Red5, Box2D, Papervision3D), and interactive in-store installations with Arduino and sensors.
+- Built early augmented-reality experiences with FLARToolKit; led a team of 6 (2012).
 
 ## Education
 

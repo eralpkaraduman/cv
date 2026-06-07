@@ -4,9 +4,9 @@ title: Eralp Karaduman's Projects
 published: true
 ---
 
-## Projects
-
 A deeper look at selected projects behind the roles listed in my CV.
+
+## Full-time roles
 
 ### Starship Technologies
 
@@ -61,28 +61,6 @@ _Contributor → owner · Node.js, TypeScript, Kafka, GraphQL, MongoDB, push not
 - Owned a backend service in an event-driven microservices architecture (Kafka for inter-service communication) powering a ~450-user, 9-country mobile app with real-time data, access control, and push notifications.
 - Improved event-streaming reliability (Kafka consumer groups, crash-safe consumers), authorization, and infra/security.
 
-### Arca
-
-Freelance engagement as the sole mobile engineer, bootstrapping a content-curation app and its release infrastructure.
-
-**Cross-platform mobile app & share-sheet extension**  
-_Freelance, sole mobile engineer · React Native, TypeScript, iOS & Android_
-
-- Built the React Native app shipped to iOS & Android, including a share-sheet extension that lets users save content into Arca from any other app.
-- Built the share-sheet UI in React Native too, running it from a second, slightly modified entrypoint in the same codebase rather than as a separate native UI.
-- Hardest parts:
-  - Holding the user's session inside the extension and refreshing it there, then syncing the fresh credentials back so the main app stayed signed in, sharing credentials between the extension and app via iOS app groups and a shared keychain.
-  - Staying within the iOS share extension's tight memory budget so the OS did not kill the React Native runtime mid-share.
-  - Normalizing the different content types the OS passes in (URLs, text, images) into one save flow.
-
-**Mobile release infrastructure & backend support**  
-_React Native, Fastlane, CodePush (OTA), GCP_
-
-- Set up mobile CI/CD with Fastlane, automating iOS & Android release pipelines, including building and signing the extra share-extension target and its separate entrypoint.
-- Configured push notifications and the Apple Developer account from scratch.
-- Set up over-the-air (OTA) updates with CodePush.
-- Helped build background task queues in the GCP backend.
-
 ### Qvik
 
 Consultancy work across several client engagements and also internal technical sales.
@@ -104,20 +82,6 @@ _Contributor · Flutter, Provider, Firebase_
 _Contributor (acting tech lead on the engagements) · Internal Qvik work_
 
 - Worked on technical sales: project scope, time estimates, and offer pricing for a major global retail business and a major bank in Finland.
-
-### Hype Hype / Frogmind
-
-Freelance engagement (similar in shape to Arca), building app UI on top of a custom game engine.
-
-**Mobile game-creation & creator-economy app**  
-_Contributor · Flutter (forked, embedded in a custom C/C++ game engine)_
-
-- Worked on Hype Hype, a mobile game-creation and creator-economy app, building UI in Flutter on top of the client's custom game engine, with Flutter embedded into the engine.
-- Built critical UX flows such as content moderation and content-reporting UI.
-- Hardest parts:
-  - Working against a non-conventional Flutter setup: a fork of Flutter that was hard to keep in sync with mainline, requiring work down in the C/C++ toolchain.
-  - Cross-communication between the Flutter UI layer and the C engine.
-  - Managing UI state in Flutter without a persistent Flutter instance (unlike a regular Flutter app, the engine did not keep one alive), which made holding state across the UI complex.
 
 ### Seriously Digital Entertainment
 
@@ -156,10 +120,10 @@ _Contributor · Swift, PHP_
 
 - Worked on the company's main mobile app in Swift, contributing to multiple new features and its PHP backend.
 
-**Dropio: real-time Dutch-auction app**  
+**Dropio: real-time auction app**  
 _iOS + realtime backend · Swift, Node.js, Socket.IO, PHP / Symfony_
 
-- A new-business experiment: a standalone app with live, real-time Dutch-auction bidding, built in Swift with a PHP/Symfony backend and a Node.js + Socket.IO realtime layer.
+- A new-business experiment: a standalone app with live, real-time auction bidding, built in Swift with a PHP/Symfony backend and a Node.js + Socket.IO realtime layer.
 - Hardest parts:
   - Building and scaling the Node.js/Socket.IO server to broadcast live auction state (price and countdown) to all connected clients in real time.
   - Enforcing bid integrity to prevent cheating: locking a bid once submitted and rejecting any bid placed after the auction had ended.
@@ -224,11 +188,72 @@ _FLARToolKit, Papervision3D, ActionScript 3_
 - One registered marker patterns for 29 letter stickers so players could complete a collection by showing each sticker to the webcam.
 - Another recognised a marker and mounted an animated 3D object (Papervision3D) onto the live camera view where the sticker appeared, like a toy.
 
-## Personal projects
+## Freelance
+
+### Arca
+
+Freelance engagement as the sole mobile engineer, bootstrapping a content-curation app and its release infrastructure.
+
+**Cross-platform mobile app & share-sheet extension**  
+_Freelance, sole mobile engineer · React Native, TypeScript, iOS & Android_
+
+- Built the React Native app shipped to iOS & Android, including a share-sheet extension that lets users save content into Arca from any other app.
+- Built the share-sheet UI in React Native too, running it from a second, slightly modified entrypoint in the same codebase rather than as a separate native UI.
+- Hardest parts:
+  - Holding the user's session inside the extension and refreshing it there, then syncing the fresh credentials back so the main app stayed signed in, sharing credentials between the extension and app via iOS app groups and a shared keychain.
+  - Staying within the iOS share extension's tight memory budget so the OS did not kill the React Native runtime mid-share.
+  - Normalizing the different content types the OS passes in (URLs, text, images) into one save flow.
+
+**Mobile release infrastructure & backend support**  
+_React Native, Fastlane, CodePush (OTA), GCP_
+
+- Set up mobile CI/CD with Fastlane, automating iOS & Android release pipelines, including building and signing the extra share-extension target and its separate entrypoint.
+- Configured push notifications and the Apple Developer account from scratch.
+- Set up over-the-air (OTA) updates with CodePush.
+- Helped build background task queues in the GCP backend.
+
+### Hype Hype / Frogmind
+
+Freelance engagement (similar in shape to Arca), building app UI on top of a custom game engine.
+
+**Mobile game-creation & creator-economy app** · ~2021  
+_Contributor · Flutter (forked, embedded in a custom C/C++ game engine)_
+
+- Worked on Hype Hype, a mobile game-creation and creator-economy app, building UI in Flutter on top of the client's custom game engine, with Flutter embedded into the engine.
+- Built critical UX flows such as content moderation and content-reporting UI.
+- Hardest parts:
+  - Working against a non-conventional Flutter setup: a fork of Flutter that was hard to keep in sync with mainline, requiring work down in the C/C++ toolchain.
+  - Cross-communication between the Flutter UI layer and the C engine.
+  - Managing UI state in Flutter without a persistent Flutter instance (unlike a regular Flutter app, the engine did not keep one alive), which made holding state across the UI complex.
+
+### Speechgrinder
+
+The client, Speechgrinder, later became Speechly and was acquired by Roblox.
+
+**React Native speech-recognition native module (iOS)** · 2017  
+_Freelance · React Native native module, Objective-C, iOS SFSpeechRecognizer_
+
+- Built a React Native native iOS module that let the client's React Native app use iOS's built-in speech recognizer (SFSpeechRecognizer) directly from JavaScript.
+- Streamed recognition results from the native layer to the React Native side in real time over an event-based bridge.
+
+## Side Projects
 
 **[LinkedFin](https://linkedfin.net): multilingual fish-name etymology database**  
-_Personal project, solo · React 19, TanStack (Start/Router/Query), TypeScript, SQLite-WASM, Kysely, Fuse.js, Cloudflare Pages + Pages Functions + D1, Vite, Tailwind ([source](https://github.com/eralpkaraduman/LinkedFin))_
+_Solo · React 19, TanStack (Start/Router/Query), TypeScript, SQLite-WASM, Kysely, Fuse.js, Cloudflare Pages + Pages Functions + D1, Vite, Tailwind ([source](https://github.com/eralpkaraduman/LinkedFin))_
 
 - A backendless single-page app: the entire fish-name etymology database ships as a SQLite file that the browser loads and queries fully client-side via the official SQLite WASM build (Kysely for queries, Fuse.js for fuzzy search), so all search and browsing happen in the frontend with no server or API.
 - Solved per-page link previews, which a JS-only SPA normally cannot have because crawlers do not run the client code: a Cloudflare Pages Function injects per-page Open Graph / Twitter meta tags via HTMLRewriter, and a separate function renders the preview image dynamically at the edge (workers-og).
 - Backed the OG data at the edge with a Cloudflare D1 database, kept in sync with the source SQLite database by a CI step that replicated it into D1; later simplified the pipeline to a build-time JSON snapshot bundled into the functions.
+
+**[Text Wallpaper](https://textwallpaper.com): text-to-image wallpaper generator**  
+_Solo · JavaScript SPA, iOS (Cordova/WebView wrapper), AdMob + Facebook Ads ([source](https://github.com/eralpkaraduman/text-wallpaper-generator))_
+
+- A personal side-project single-page app for generating text wallpapers, with a sizeable audience (~3,000 monthly active users).
+- Later shipped an iOS counterpart that wrapped the web app in a WebView and integrated AdMob and Facebook Ads SDKs for monetization.
+
+**Card Quest: a card game shared across mobile & web**  
+_Solo · React Native, react-native-web, TypeScript, Metro + Webpack, styled-components, react-navigation + react-router-dom ([source](https://github.com/eralpkaraduman/card-quest), [write-up](https://eralp.dev/posts/react-native-mobile-and-web-code-sharing/))_
+
+- An open-source single-player card game (Donsol) running on iOS, Android, and web from one React Native codebase, built to explore practical code-sharing between React Native and React web.
+- Ran both bundlers in a single project (Metro for native, Webpack for web with `react-native` aliased to `react-native-web`), splitting platform-specific code by `.native.ts` / `.web.ts` postfixes and keeping everything else shared.
+- Decoupled the game logic from React entirely as plain TypeScript (GameController, EventDispatcher, Observable), bound to the UI through a Context provider and hook, and kept platform-native navigation (react-navigation on mobile, react-router-dom on web) behind shared link/screen abstractions.
