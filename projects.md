@@ -117,7 +117,33 @@ _Flutter (embedded in a custom game engine)_
 
 ### Seriously Digital Entertainment
 
-_To be filled in._
+**Live-content & A/B testing platform (CMS) for the game**  
+_Full-stack + Unity tooling · Java, React, Unity3D (AssetBundles, ScriptableObjects, editor tooling), Docker, Kubernetes, GCP_
+
+- Built a CMS in two parts: a full-stack Java server with a React web frontend, and Unity-side tooling with its own custom editor tool windows inside the game project.
+- Authored seasonal content and A/B test variants (both UI and code behaviour) as Unity ScriptableObjects packaged into AssetBundles; the tooling serialized them and pushed them to the web app, which served them on request so the game could sideload and deserialize them at runtime, shipping new content and experiments live without an app-store release.
+- Built the scheduler that decided which variant to serve, with every available variant and experiment registered and managed through the web UI.
+- Hardest parts:
+  - Reliably serializing and deserializing the AssetBundle and ScriptableObject variants across the Unity-to-web boundary.
+  - Designing the scheduler and the variant/experiment management UI, and building the whole pipeline end to end.
+  - Running the mobile game headless in the cloud to test variants against it, which meant containerizing a headless Unity build.
+
+**Native Unity3D plugins**  
+_Contributor · Unity3D, Objective-C (iOS), Java (Android)_
+
+- Developed native plugins bridging Unity3D to iOS (Obj-C) and Android (Java) platform features.
+
+**Operations dashboards**  
+_ELK stack, GCP, Kubernetes_
+
+- Built operations dashboards on the ELK stack running on GCP and Kubernetes.
+
+**On-prem CI/CD & on-device performance testing**  
+_Jenkins (Groovy), GameBench, on-prem build servers_
+
+- Built and ran the on-prem CI/CD system on Jenkins, writing extensive custom pipelines in Groovy.
+- Ran GameBench performance tests on real phones physically connected to the on-prem build servers.
+- Managed scheduled nightly, ad-hoc, and release builds.
 
 ### DealDash
 
@@ -134,7 +160,14 @@ _Swift, PHP / Symfony, Node.js, Socket.IO_
 
 ### CupsOn.Me
 
-_To be filled in._
+**Mobile-first coffee discovery & purchasing platform**  
+_Co-founder (one of two technical founders) · iOS (Objective-C), Android (Java)_
+
+- Co-founded the startup and built both native clients from scratch: the iOS app in Objective-C and the Android app in Java, a mobile-first platform for discovering and buying from third-wave coffee shops.
+- Built in-app credit purchasing through a local payment provider: users entered card details and completed a 3D Secure verification flow (ahead of its time), then spent the credits at the venue.
+- Built the in-venue redemption flow: the user presented a keypad confirmation screen and the venue confirmed the spend by entering their own code.
+- Maps-based shop discovery was the most advanced piece of the UI.
+- Shipped to the App Store and Google Play and rolled out to real coffee shops across Dublin, London, and Istanbul.
 
 ### Hipo
 
@@ -146,8 +179,37 @@ _Objective-C_
 
 ### Adphorus / Publik
 
-_To be filled in._
+**Cevap.Tv, video how-to platform**  
+_Mobile + video streaming infrastructure · Objective-C (iOS 6), Flash/AS3, Wowza, HLS/FLV, SMIL, Node.js, FFmpeg, AWS (EC2, S3)_
+
+- Built the iPad app for Cevap.Tv, a YouTube-like video platform, with a two-column layout in Objective-C for iOS 6, which was technically challenging for its time.
+- Built the video streaming backend on Wowza: a multi-bitrate adaptive HLS and FLV streaming server driven by SMIL configurations, deployed on AWS.
+- Built a custom Flash/AS3 video player and integrated Google's video ads (IMA) SDK into it.
+- Built a companion video-processing service in Node.js that used FFmpeg to stitch intros onto source videos, transcode them into multiple bitrates, store the outputs in S3, and generate the SMIL configurations; deployed with pm2 on AWS EC2.
+
+**Adphorus, Facebook ads management SaaS**  
+_Mobile developer · iOS (Objective-C), Android (Java)_
+
+- Built the native iOS and Android clients for Adphorus, a SaaS platform for managing Facebook ad campaigns, focused on campaign monitoring with charts and adjustable bid-rate controls.
 
 ### MagiClick
 
-_To be filled in._
+Senior Flash developer, later team lead of 6 (2012). Built websites, advergames, and rich-media campaigns.
+
+**Multiplayer Flash advergames**  
+_Senior Flash developer · ActionScript 3, Red5 (multiplayer server), Box2D, Papervision3D_
+
+- Built multiplayer advergames on a Red5 game server with matchmaking, lobby, chat, and leaderboards, where players competed for prizes over a campaign period.
+- Built the games in AS3, some using Box2D physics and some using Papervision3D for 3D graphics.
+
+**Interactive in-store electronics experiences**  
+_Hardware + software · Arduino, sensors, Flash_
+
+- Built rich-media experiences combining Arduino and sensors with software, deployed into grocery stores as interactive installations.
+
+**Early augmented reality / marker-detection experiences (FLARToolKit)**  
+_FLARToolKit, Papervision3D, ActionScript 3_
+
+- Built early augmented-reality experiences with FLARToolKit (the first Flash-based Augmented Reality library), doing webcam marker detection well ahead of its time.
+- One registered marker patterns for 29 letter stickers so players could complete a collection by showing each sticker to the webcam.
+- Another recognised a marker and mounted an animated 3D object (Papervision3D) onto the live camera view where the sticker appeared, like a toy.
