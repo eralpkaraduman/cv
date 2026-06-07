@@ -82,7 +82,7 @@ I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https
 ## Work Experience
 
 `June 2022 - now`
-**Starship Technologies**, Helsinki  
+**[Starship Technologies](https://www.starship.xyz/)**, Helsinki  
 _Senior Software Engineer_
 
 - Build and own multiple internal web, mobile, and backend tools (React / React Native, Node/TypeScript/GraphQL, Kafka microservices) giving field and operations teams across 9 countries visibility into and control over the autonomous delivery fleet.
@@ -96,7 +96,7 @@ _Freelance Software Consultant_
 - Set up automated iOS & Android release pipelines (Fastlane) and OTA updates (CodePush) from day one.
 
 `March 2019 - June 2022`
-**Qvik**, Helsinki  
+**[Qvik](https://qvik.com)**, Helsinki  
 _Principal Software Engineer_
 
 - Led a React Native / React Native Web TV companion game for YLE (Finnish public broadcaster); built a Flutter crypto investment app (OVORO).
@@ -110,7 +110,7 @@ _Technology Programmer_
 - Built native Unity3D plugins (iOS/Android), ELK operations dashboards on GCP/Kubernetes, and an on-prem Jenkins CI/CD pipeline with on-device performance testing.
 
 `Sep 2015 - Jan 2017`
-**DealDash**, Helsinki  
+**[DealDash](https://dealdash.com)**, Helsinki  
 _iOS Developer_
 
 - Contributed features to the company's main iOS app (Swift) and its PHP backend.
@@ -137,7 +137,7 @@ _Mobile (iOS & Android) Software Developer_
 - For Cevap.Tv (video platform): built the iOS app, a Wowza adaptive HLS/FLV streaming backend on AWS, a Flash/AS3 player with Google IMA ads, and an FFmpeg/Node.js transcoding pipeline.
 
 `Sep 2008 - Nov 2012`
-**MagiClick**, Istanbul  
+**[MagiClick](https://www.magiclick.com/)**, Istanbul  
 _Senior Flash Developer & Team Leader_
 
 - Built Flash websites, multiplayer advergames (Red5, Box2D, Papervision3D), and interactive in-store installations with Arduino and sensors.
