@@ -17,7 +17,7 @@ _Sole engineer + product owner · TypeScript, Hono, GraphQL, React, Redis, Prome
 
 - Built a read-only, mobile-first ops web app from scratch (backend, React UI, infra) giving site leads and customer-success managers a quick at-a-glance view of fleet status and targets across sites.
 - Hardest parts: aggregating live data from several upstream services into one fast, real-time view, and standing up the service's observability (structured logging, Prometheus/Grafana dashboards, OpenTelemetry tracing).
-- Defined the success metric, drove adoption to 100% of the targeted operations users, and grew weekly active usage to a peak 140% above its lowest week, across users in 8 countries.
+- Defined the success metric, drove adoption to 100% of the targeted operations users, and grew weekly active usage to a peak 140% above its lowest week, across users in 9 countries.
 
 **Mission Control: cross-site operational warnings dashboard** · 2023–2024  
 _Sole author · React, TypeScript, GraphQL, built into the "Hype" hypervisor panel_
@@ -29,7 +29,7 @@ _Sole author · React, TypeScript, GraphQL, built into the "Hype" hypervisor pan
 **Mobile app re-platforming & delivery pipeline** · 2022–2026  
 _Sole engineer (re-architecture + CI/CD) · React Native (Android), TypeScript, GraphQL, GitHub Actions, Docker, Detox_
 
-- Migrated a field app (~450 MAU, 8 countries) off a constrained prototype framework to bare React Native + typed GraphQL.
+- Migrated a field app (~450 MAU, 9 countries) off a constrained prototype framework to bare React Native + typed GraphQL.
 - Built CI/CD from scratch (builds, signing, e2e, OTA), replacing a fully manual process where local builds were hand-uploaded to the device-management portal, so the team shipped updates and bug fixes far more frequently.
 
 **Visual equipment inspection & damage-reporting system** · 2023–2026  
@@ -58,7 +58,7 @@ _Lead engineer · certificate/PKI auth, MDM-managed devices, React Native, Node/
 **Backend service powering a global field-operations app** · 2022–2026  
 _Contributor → owner · Node.js, TypeScript, Kafka, GraphQL, MongoDB, push notifications, Cloudflare_
 
-- Owned a backend service in an event-driven microservices architecture (Kafka for inter-service communication) powering a ~450-user, 8-country mobile app with real-time data, access control, and push notifications.
+- Owned a backend service in an event-driven microservices architecture (Kafka for inter-service communication) powering a ~450-user, 9-country mobile app with real-time data, access control, and push notifications.
 - Improved event-streaming reliability (Kafka consumer groups, crash-safe consumers), authorization, and infra/security.
 
 ### Arca
@@ -110,10 +110,14 @@ _Contributor (acting tech lead on the engagements) · Internal Qvik work_
 Freelance engagement (similar in shape to Arca), building app UI on top of a custom game engine.
 
 **Mobile game-creation & creator-economy app**  
-_Flutter (embedded in a custom game engine)_
+_Contributor · Flutter (forked, embedded in a custom C/C++ game engine)_
 
-- Worked on Hype Hype, a mobile game-creation and creator-economy app, helping the client build their UI in Flutter on top of their custom game engine (Flutter embedded into the engine).
+- Worked on Hype Hype, a mobile game-creation and creator-economy app, building UI in Flutter on top of the client's custom game engine, with Flutter embedded into the engine.
 - Built critical UX flows such as content moderation and content-reporting UI.
+- Hardest parts:
+  - Working against a non-conventional Flutter setup: a fork of Flutter that was hard to keep in sync with mainline, requiring work down in the C/C++ toolchain.
+  - Cross-communication between the Flutter UI layer and the C engine.
+  - Managing UI state in Flutter without a persistent Flutter instance (unlike a regular Flutter app, the engine did not keep one alive), which made holding state across the UI complex.
 
 ### Seriously Digital Entertainment
 
@@ -148,15 +152,19 @@ _Jenkins (Groovy), GameBench, on-prem build servers_
 ### DealDash
 
 **DealDash mobile app**  
-_Swift, PHP_
+_Contributor · Swift, PHP_
 
 - Worked on the company's main mobile app in Swift, contributing to multiple new features and its PHP backend.
 
-**Dropio**  
-_Swift, PHP / Symfony, Node.js, Socket.IO_
+**Dropio: real-time Dutch-auction app**  
+_iOS + realtime backend · Swift, Node.js, Socket.IO, PHP / Symfony_
 
-- New business experiment: a new app with real-time Dutch auction bidding.
-- App built in Swift; backend in PHP / Symfony plus Node.js with Socket.IO for realtime communication.
+- A new-business experiment: a standalone app with live, real-time Dutch-auction bidding, built in Swift with a PHP/Symfony backend and a Node.js + Socket.IO realtime layer.
+- Hardest parts:
+  - Building and scaling the Node.js/Socket.IO server to broadcast live auction state (price and countdown) to all connected clients in real time.
+  - Enforcing bid integrity to prevent cheating: locking a bid once submitted and rejecting any bid placed after the auction had ended.
+  - Running many parallel auctions concurrently.
+  - Building automated bidder bots that participated in auctions alongside real users.
 
 ### CupsOn.Me
 
@@ -171,11 +179,13 @@ _Co-founder (one of two technical founders) · iOS (Objective-C), Android (Java)
 
 ### Hipo
 
-**Chroma, app for collectors**  
-_Objective-C_
+**Chroma (Fieldguide), iOS app for collectors**  
+_iOS developer · Objective-C_
 
-- Built a mobile app for collectors called Chroma in Objective-C, with complex UI/UX flows that were ahead of their time.
-- (See also Fieldguide in the CV experience section.)
+- Built Chroma (tagline "Fieldguide"), an Objective-C iOS social network for collectors, with image-heavy galleries and polished UI ahead of its time.
+- Hardest parts:
+  - Keeping long, image-heavy lists fast and memory-efficient by rendering content just ahead of where the user was about to scroll and aggressively recycling view objects to stay within memory limits.
+  - Managing complex UI state across many screens, including deep drill-down navigation from top-level categories into sub-categories and individual species.
 
 ### Adphorus / Publik
 
