@@ -47,6 +47,7 @@ jsonld:
     - Cross-platform mobile development
     - SPA architecture
     - Three.js
+    - React Three Fiber
     - Blender
     - AWS
     - GCP
@@ -91,7 +92,7 @@ I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https
 | ---------------- | ---------------------------------------------------------------------- |
 | Mobile           | Swift, Objective-C, React Native, Flutter / Dart, native iOS & Android |
 | Frontend         | React, Next.js, Redux, TypeScript, JavaScript, SPA architecture        |
-| 3D / Graphics    | Three.js, Blender                                                      |
+| 3D / Graphics    | Three.js, React Three Fiber, Blender                                   |
 | Backend          | Node.js, GraphQL, Socket.IO, PostgreSQL, MySQL, MongoDB, SQLite, Redis, Kafka |
 | Cloud & Infra    | GCP, AWS, Firebase, Cloudflare Workers, Cloudflare Pages, Coolify, Docker, Kubernetes, Microservices, Distributed Architectures, CI/CD, Observability (Prometheus, Grafana, OpenTelemetry), Mobile Ops, Fastlane, Jenkins |
 | AI-Augmented Dev | AI coding agents, custom tooling & integrations, workflow automation   |
