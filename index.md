@@ -163,7 +163,7 @@ A deeper look at selected projects behind the roles listed above.
 Starship Technologies operates a large fleet of autonomous delivery robots across multiple countries. As a full-stack engineer I built the web, mobile, and backend systems its field and operations teams use to run the fleet.
 
 **Greenfield operations-management web platform** · 2026  
-_Sole engineer + product owner · TypeScript, Hono, GraphQL, React, Redis, Prometheus, Grafana, OpenTelemetry, Amplitude_
+_Sole engineer + product owner · TypeScript, Hono, GraphQL, React, Redis, Terraform, Prometheus, Grafana, OpenTelemetry, Amplitude_
 
 - Built a read-only, mobile-first ops web app from scratch (backend, React UI, infra) giving site leads and customer-success managers a quick at-a-glance view of fleet status and targets across sites.
 - Hardest parts: aggregating live data from several upstream services into one fast, real-time view, and standing up the service's observability (structured logging, Prometheus/Grafana dashboards, OpenTelemetry tracing).
@@ -220,7 +220,7 @@ _Contributor · React Native, React Native Web, TypeScript, React, Redux, Clojur
 
 - **Hyvät katsojat**: TV show companion game built in React Native, embedded inside the yle.fi React Native TypeScript app. Contributed to the CMS backend in Clojure.
 - **Elämäni biisi**: TV show companion game built in React Native, embedded inside the yle.fi React Native TypeScript app. Contributed to the CMS backend in Clojure.
-- **React Native → React Native Web (my initiative)**: when the client wanted the games removable between show seasons to cut the app's asset footprint, I proposed and built the move from React Native into a React Native Web shell, turning each game into a standalone web app embedded back into the yle.fi app as a WebView so its content loaded only on demand without bloating the host app. This became a reusable pattern for building further apps the same way.
+- **React Native → React Native Web (my initiative)**: when the client wanted the games removable between show seasons to cut the app's asset footprint, I proposed and built the move from React Native into a React Native Web shell, turning each game into a standalone web app embedded back into the yle.fi app as a WebView so its content loaded only on demand without bloating the host app. I built the WebView-to-native bridge that let the embedded web game communicate with the host app, and the approach became a reusable pattern for building further apps the same way.
 - **"Tehtävä" quiz / voting / form tool**: Clojure backend with a TypeScript web frontend (React + Redux) driving a complex state system. The frontend is embedded into multiple web apps and also used as an internal tool, and the backend doubles as the backend for the TV game companion apps.
 
 **Ovoro, crypto investment app**  
