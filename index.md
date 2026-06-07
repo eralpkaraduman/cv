@@ -88,22 +88,15 @@ _Senior Software Engineer_
 - Build and own multiple internal web, mobile, and backend tools (React / React Native, Node/TypeScript/GraphQL, Kafka microservices) giving field and operations teams across 9 countries visibility into and control over the autonomous delivery fleet.
 - Take products end to end and single-handedly to adoption (one ops-overview tool reached 100% of its target users): real-time dashboards, a React Native field-app re-platform with CI/CD from scratch, a visual robot inspection and damage-reporting flow, hardware integrations, and certificate-based device sign-in, owning metrics, impact, and feedback.
 
-`Nov 2024 - July 2025`
-**[Arca](https://www.arca.so)** (Lifeline Ventures–backed), Helsinki (Hybrid)  
-_Freelance Software Consultant_
-
-- Sole engineer; bootstrapped Arca, a content-curation product, end to end in ~6 weeks: React Native app (iOS & Android) with a native share-sheet extension, a Next.js web app, and GCP backend.
-- Set up automated iOS & Android release pipelines (Fastlane) and OTA updates (CodePush) from day one.
-
 `March 2019 - June 2022`
 **[Qvik](https://qvik.com)**, Helsinki  
 _Principal Software Engineer_
 
-- Led a React Native / React Native Web TV companion game for YLE (Finnish public broadcaster); built a Flutter crypto investment app (OVORO).
+- Led React Native TV companion games for YLE (Finnish public broadcaster) and, on my own initiative, re-architected them into React Native Web apps embedded as WebViews so they loaded on demand without bloating the host app; also built a Flutter crypto investment app (OVORO).
 - Contributed to technical sales, scoping, estimates, and pricing, for major retail and banking clients.
 
 `Jan 2017 - February 2019`
-**Seriously Digital Entertainment**, Helsinki  
+**Seriously Digital Entertainment** (later acquired by Playtika), Helsinki  
 _Technology Programmer_
 
 - Built a live-content and A/B-testing CMS (Java + React with Unity editor tooling) that shipped seasonal content and experiments to a mobile game at runtime, with no app-store release.
@@ -118,7 +111,7 @@ _iOS Developer_
 
 `Sep 2014 - Oct 2016`
 **CupsOn.Me**, Dublin  
-_Co-Founder & iOS Developer_
+_Co-Founder & Mobile Developer_
 
 - Co-founded a mobile-first platform for discovering and buying from third-wave coffee shops; built both native apps (iOS Obj-C, Android Java).
 - Shipped in-app credit purchasing with a 3D Secure flow and in-venue code redemption; launched in Dublin, London, and Istanbul.
@@ -130,7 +123,7 @@ _iOS Developer_
 - Built Chroma (a.k.a. Fieldguide), an Obj-C iOS social network for collectors with image-heavy galleries and high-performance, memory-efficient scrolling. ([App Store](https://itunes.apple.com/us/app/fieldguide-for-everything/id879829383?mt=8))
 
 `November 2012 - Apr 2015`
-**Adphorus / Publik**, Istanbul  
+**Adphorus / Publik** (later acquired by Sojern), Istanbul  
 _Mobile (iOS & Android) Software Developer_
 
 - Built native iOS (Obj-C) & Android (Java) clients for Adphorus, a Facebook ads-management SaaS.
@@ -212,10 +205,11 @@ _Contributor → owner · Node.js, TypeScript, Kafka, GraphQL, MongoDB, push not
 Consultancy work across several client engagements and also internal technical sales.
 
 **YLE (Finnish public broadcaster), creative content**  
-_Contributor · React Native, TypeScript, React, Redux, Clojure_
+_Contributor · React Native, React Native Web, TypeScript, React, Redux, Clojure_
 
 - **Hyvät katsojat**: TV show companion game built in React Native, embedded inside the yle.fi React Native TypeScript app. Contributed to the CMS backend in Clojure.
 - **Elämäni biisi**: TV show companion game built in React Native, embedded inside the yle.fi React Native TypeScript app. Contributed to the CMS backend in Clojure.
+- **React Native → React Native Web (my initiative)**: when the client wanted the games removable between show seasons to cut the app's asset footprint, I proposed and built the move from React Native into a React Native Web shell, turning each game into a standalone web app embedded back into the yle.fi app as a WebView so its content loaded only on demand without bloating the host app. This became a reusable pattern for building further apps the same way.
 - **"Tehtävä" quiz / voting / form tool**: Clojure backend with a TypeScript web frontend (React + Redux) driving a complex state system. The frontend is embedded into multiple web apps and also used as an internal tool, and the backend doubles as the backend for the TV game companion apps.
 
 **OVORO, crypto investment app**  
@@ -336,9 +330,11 @@ _FLARToolKit, Papervision3D, ActionScript 3_
 
 ### Freelance
 
-#### Arca
+#### [Arca](https://www.arca.so)
 
-Freelance engagement as the sole mobile engineer, bootstrapping a content-curation app and its release infrastructure.
+_Freelance Software Consultant · Helsinki (hybrid) · Nov 2024 – July 2025_
+
+Arca (Lifeline Ventures–backed) is a content-curation app where people collect content into personalized portals. As the sole mobile engineer I bootstrapped the full product in ~6 weeks: the React Native mobile app, a Next.js web app, and the GCP backend and release infrastructure.
 
 **Cross-platform mobile app & share-sheet extension**  
 _Freelance, sole mobile engineer · React Native, TypeScript, iOS & Android_
