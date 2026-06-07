@@ -3,3 +3,4 @@ _pdfbuild/
 .sass-cache/
 *.swp
 cover-letters/
+.DS_Store
