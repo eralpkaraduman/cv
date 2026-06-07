@@ -25,27 +25,45 @@ jsonld:
   knowsAbout:
     - React
     - Next.js
+    - Redux
     - React Native
     - TypeScript
     - JavaScript
     - Swift
     - Objective-C
     - Flutter
+    - Dart
+    - Lua
     - Node.js
+    - GraphQL
+    - Socket.IO
+    - PostgreSQL
+    - MySQL
+    - MongoDB
+    - SQLite
+    - Redis
+    - Kafka
     - iOS development
     - Cross-platform mobile development
+    - SPA architecture
     - Three.js
     - Blender
     - AWS
     - GCP
+    - Firebase
     - Cloudflare Workers
     - Cloudflare Pages
+    - Coolify
     - Docker
     - Kubernetes
-    - Coolify
     - Microservices
     - Distributed architectures
     - CI/CD
+    - Prometheus
+    - Grafana
+    - OpenTelemetry
+    - Fastlane
+    - Jenkins
     - AI-augmented engineering
 ---
 
