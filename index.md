@@ -180,7 +180,7 @@ _Sole author · React, TypeScript, GraphQL, built into the "Hype" hypervisor pan
 **Mobile app re-platforming & delivery pipeline** · 2022–2026  
 _Sole engineer (re-architecture + CI/CD) · React Native (Android), TypeScript, GraphQL, GitHub Actions, Docker, Detox_
 
-- Migrated a field app (~450 MAU, 9 countries) off a constrained prototype framework to bare React Native + typed GraphQL.
+- Migrated a field app (~450 MAU, 9 countries) from a managed Expo setup to bare React Native + typed GraphQL when its native needs outgrew the managed workflow.
 - Built CI/CD from scratch (builds, signing, e2e, OTA), replacing a fully manual process where local builds were hand-uploaded to the device-management portal, so the team shipped updates and bug fixes far more frequently.
 
 **Visual equipment inspection & damage-reporting system** · 2023–2026  
