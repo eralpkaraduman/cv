@@ -110,7 +110,7 @@ _Senior Software Engineer_
 **[Qvik](https://qvik.com)**, Helsinki  
 _Principal Software Engineer_
 
-- Led React Native TV companion games for YLE (Finnish public broadcaster) and, on my initiative, re-architected them to React Native Web for on-demand loading; built a Flutter crypto investment app (Ovoro) and contributed to technical sales.
+- Led React Native TV companion games for YLE (Finnish public broadcaster) and, on my initiative, re-architected them to React Native Web for on-demand loading; built a Flutter investment app (Ovoro) and contributed to technical sales.
 
 `Jan 2017 - February 2019`
 **Seriously Digital Entertainment** (later acquired by Playtika), Helsinki  
@@ -125,7 +125,7 @@ _iOS Developer_
 - Built features for the company's main iOS app (Swift/PHP) and Dropio, a real-time auction app (Swift + Node.js/Socket.IO + PHP/Symfony) with anti-cheat bid integrity and automated bidder bots.
 
 `Sep 2014 - Oct 2016`
-**CupsOn.Me**, Dublin  
+**CupsOn.Me**, Istanbul  
 _Co-Founder & Mobile Developer_
 
 - Co-founded a mobile-first third-wave-coffee discovery & purchasing platform; built the iOS & Android apps with in-app payments (3D Secure) and in-venue code redemption; launched in Dublin, London, and Istanbul.
@@ -224,10 +224,10 @@ _Contributor · React Native, React Native Web, TypeScript, React, Redux, Clojur
 - **React Native → React Native Web (my initiative)**: when the client wanted the games removable between show seasons to cut the app's asset footprint, I proposed and built the move from React Native into a React Native Web shell, turning each game into a standalone web app embedded back into the yle.fi app as a WebView so its content loaded only on demand without bloating the host app. I built the WebView-to-native bridge that let the embedded web game communicate with the host app, and the approach became a reusable pattern for building further apps the same way.
 - **"Tehtävä" quiz / voting / form tool**: Clojure backend with a TypeScript web frontend (React + Redux) driving a complex state system. The frontend is embedded into multiple web apps and also used as an internal tool, and the backend doubles as the backend for the TV game companion apps.
 
-**Ovoro, crypto investment app**  
+**Ovoro, investment app**  
 _Contributor · Flutter, Provider, Firebase_
 
-- Built a crypto investment app from scratch in Flutter using Provider and InheritedWidgets, helping the client bootstrap their app business.
+- Built a investment app from scratch in Flutter using Provider and InheritedWidgets, helping the client bootstrap their app business.
 - Set up Firebase auth and notifications, the first-time user experience, and screen flows for critical user actions.
 
 **Technical sales**  
