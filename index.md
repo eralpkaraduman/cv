@@ -8,8 +8,8 @@ jsonld:
   jobTitle: Senior Full-Stack & Mobile Engineer
   description: >-
     Senior Full-Stack & Mobile Engineer with 18 years across web, native mobile
-    (iOS, React Native, Flutter), and cloud (AWS, GCP), now focused on
-    AI-augmented engineering.
+    (iOS, React Native, Flutter), and cloud (AWS, GCP), now increasingly
+    AI-augmented, building agentic workflows to ship faster.
   email: eralp@eralp.dev
   url: https://eralp.dev
   canonical: https://eralpkaraduman.github.io/cv/
@@ -66,6 +66,11 @@ jsonld:
     - Fastlane
     - Jenkins
     - AI-augmented engineering
+    - Generative AI
+    - Large Language Models
+    - Prompt Engineering
+    - AI Agents
+    - Agentic workflows
 ---
 
 # Eralp Karaduman
@@ -76,13 +81,13 @@ Senior Full-Stack & Mobile Engineer · Web · Native Mobile · Cloud Infrastruct
 | **Website** | [eralp.dev](https://eralp.dev) |
 | **LinkedIn** | [linkedin.com/in/eralpkaraduman](https://linkedin.com/in/eralpkaraduman) |
 
-Engineer with 18 years shipping production software across the entire stack. Genuine depth in three areas that rarely overlap in one person:
+Engineer with 18 years shipping production software across the entire stack, now increasingly AI-augmented. Genuine depth in three areas that rarely overlap in one person:
 
 - **Frontend & Backend Full-Stack**: React, TypeScript, 9+ years building and running production web apps end to end.
 - **Native & Cross-Platform Mobile Apps**: 6+ years of native iOS (Swift, Obj-C) plus 7+ years of React Native and Flutter; apps shipped to the App Store.
 - **Cloud & infrastructure**: designing and operating server and streaming systems on AWS and GCP, with hands-on CI/CD, Docker, Kubernetes and build tooling.
 
-Increasingly focused on AI-augmented engineering: building and customizing agent-based workflows and AI tooling to ship faster across all of the above.
+I build and customize agentic workflows and AI coding agents to ship faster across all of the above.
 
 I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https://open.spotify.com/show/6Ace2VvsbkPKFkgqy4NWUc?si=baaec7c9731e4b77), and host live Twitch shows about software development.
 
@@ -95,7 +100,7 @@ I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https
 | 3D / Graphics    | Three.js, React Three Fiber, Blender                                   |
 | Backend          | Node.js, GraphQL, Socket.IO, PostgreSQL, MySQL, MongoDB, SQLite, Redis, Kafka |
 | Cloud & Infra    | GCP, AWS, Firebase, Cloudflare Workers, Cloudflare Pages, Coolify, Docker, Kubernetes, Microservices, Distributed Architectures, CI/CD, Observability (Prometheus, Grafana, OpenTelemetry), Mobile Ops, Fastlane, Jenkins |
-| AI-Augmented Dev | AI coding agents, custom tooling & integrations, workflow automation   |
+| AI-Augmented Dev | AI coding agents, agentic workflows, prompt engineering, generative AI   |
 | Languages        | TypeScript / JavaScript, Swift, Objective-C, Dart, Lua                 |
 
 ## Work Experience
