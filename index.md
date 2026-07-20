@@ -80,6 +80,7 @@ Senior Full-Stack & Mobile Engineer · Web · Native Mobile · Cloud Infrastruct
 | **E-Mail** | [eralp@eralp.dev](mailto:eralp@eralp.dev) |
 | **Website** | [eralp.dev](https://eralp.dev) |
 | **LinkedIn** | [linkedin.com/in/eralpkaraduman](https://linkedin.com/in/eralpkaraduman) |
+| **GitHub** | [github.com/eralpkaraduman](https://github.com/eralpkaraduman) |
 
 Engineer with 18 years shipping production software across the entire stack, now increasingly AI-augmented. Genuine depth in three areas that rarely overlap in one person:
 
