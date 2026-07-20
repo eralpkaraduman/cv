@@ -35,7 +35,7 @@ You can always link to the latest release by adding the suffix
 github.com/your-username-here/cv[/releases/latest](https://github.com/eralpkaraduman/cv/releases/latest)
 
 No setup is required: the workflow uses the built-in `GITHUB_TOKEN` (granted
-`contents: write` in the workflow file) to create the release — there's no
+`contents: write` in the workflow file) to create the release, so there's no
 personal access token or repository secret to configure. Just make sure the
 repo's **Settings → Actions → General → Workflow permissions** is set to
 "Read and write permissions".
@@ -105,7 +105,7 @@ docker run --rm --platform linux/amd64 -v "$PWD":/cv cv-jekyll build-pdf
 
 Notes:
 - The download button links to the latest **GitHub release** PDF, not the local
-  `_pdfbuild/Eralp-Karaduman-CV.pdf` — so locally it points at whatever CI last published.
+  `_pdfbuild/Eralp-Karaduman-CV.pdf`, so locally it points at whatever CI last published.
 - The base image is Debian buster (EOL), so the `Dockerfile` repoints `apt` at
   `archive.debian.org`; `wkhtmltopdf` uses the patched-Qt build and runs headless
   (no `xvfb` needed, unlike CI).
