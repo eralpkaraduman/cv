@@ -375,7 +375,7 @@ _React Native, Fastlane, CodePush (OTA), GCP_
 
 Freelance engagement (similar in shape to Arca), building app UI on top of a custom game engine.
 
-**Mobile game-creation & creator-economy app** · ~2021  
+**Mobile game-creation & creator-economy app** · Jul 2020 – Sep 2020  
 _Contributor · Flutter (forked, embedded in a custom C/C++ game engine)_
 
 - Worked on Hype Hype, a mobile game-creation and creator-economy app, building UI in Flutter on top of the client's custom game engine, with Flutter embedded into the engine.
@@ -389,7 +389,7 @@ _Contributor · Flutter (forked, embedded in a custom C/C++ game engine)_
 
 The client, Speechgrinder, later became Speechly and was acquired by Roblox.
 
-**React Native speech-recognition native module (iOS)** · 2017  
+**React Native speech-recognition native module (iOS)** · Jan 2017 – Feb 2017  
 _Freelance · React Native native module, Objective-C, iOS SFSpeechRecognizer_
 
 - Built a React Native native iOS module that let the client's React Native app use iOS's built-in speech recognizer (SFSpeechRecognizer) directly from JavaScript.
