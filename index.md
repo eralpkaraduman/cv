@@ -112,11 +112,17 @@ _Senior Software Engineer_
 
 - Full-stack engineer building and owning internal web, mobile, and backend tools (React/React Native, Node/TypeScript/GraphQL, Kafka) that run the autonomous delivery fleet across 8 countries; grew weekly active usage of an internal ops tool to its adoption target.
 
-`March 2019 - June 2022`
+`June 2021 - June 2022`
 **[Qvik](https://qvik.com)**, Helsinki  
 _Principal Software Engineer_
 
 - Led React Native TV companion games for YLE (Finnish public broadcaster) and, on my initiative, re-architected them to React Native Web for on-demand loading; built a Flutter investment app (Ovoro) and contributed to technical sales.
+
+`March 2019 - June 2021`
+**[Qvik](https://qvik.com)**, Helsinki  
+_Senior Software Engineer_
+
+- Consultant engineer on client product teams, building React Native mobile apps and TypeScript/React web frontends; led the React Native TV companion games for YLE across client engagements before being promoted to Principal Software Engineer.
 
 `Jan 2017 - February 2019`
 **Seriously Digital Entertainment** (later acquired by Playtika), Helsinki  
@@ -399,21 +405,27 @@ _Freelance · React Native native module, Objective-C, iOS SFSpeechRecognizer_
 ### Side Projects
 
 **[LinkedFin](https://linkedfin.net): multilingual fish-name etymology database** · Jan 2025 – present  
-_Solo · React 19, TanStack (Start/Router/Query), TypeScript, SQLite-WASM, Kysely, Fuse.js, Cloudflare Pages + Pages Functions + D1, Vite, Tailwind ([source](https://github.com/eralpkaraduman/LinkedFin))_
+_React 19, TanStack (Start/Router/Query), TypeScript, SQLite-WASM, Kysely, Fuse.js, Cloudflare Pages + Pages Functions + D1, Vite, Tailwind ([source](https://github.com/eralpkaraduman/LinkedFin))_
 
 - A backendless single-page app: the entire fish-name etymology database ships as a SQLite file that the browser loads and queries fully client-side via the official SQLite WASM build (Kysely for queries, Fuse.js for fuzzy search), so all search and browsing happen in the frontend with no server or API.
 - Solved per-page link previews, which a JS-only SPA normally cannot have because crawlers do not run the client code: a Cloudflare Pages Function injects per-page Open Graph / Twitter meta tags via HTMLRewriter, and a separate function renders the preview image dynamically at the edge (workers-og).
 - Backed the OG data at the edge with a Cloudflare D1 database, kept in sync with the source SQLite database by a CI step that replicated it into D1; later simplified the pipeline to a build-time JSON snapshot bundled into the functions.
 
 **[Text Wallpaper](https://textwallpaper.com): text-to-image wallpaper generator** · Jan 2015 – present  
-_Solo · JavaScript SPA, iOS (Cordova/WebView wrapper), AdMob + Facebook Ads ([source](https://github.com/eralpkaraduman/text-wallpaper-generator))_
+_JavaScript SPA, iOS (Cordova/WebView wrapper), AdMob + Facebook Ads ([source](https://github.com/eralpkaraduman/text-wallpaper-generator))_
 
 - A personal side-project single-page app for generating text wallpapers, with a sizeable audience (~3,000 monthly active users).
 - Later shipped an iOS counterpart that wrapped the web app in a WebView and integrated AdMob and Facebook Ads SDKs for monetization.
 
 **Card Quest: a card game shared across mobile & web** · Jan 2021 – Mar 2021  
-_Solo · React Native, react-native-web, TypeScript, Metro + Webpack, styled-components, react-navigation + react-router-dom ([source](https://github.com/eralpkaraduman/card-quest), [write-up](https://eralp.dev/posts/react-native-mobile-and-web-code-sharing/))_
+_React Native, react-native-web, TypeScript, Metro + Webpack, styled-components, react-navigation + react-router-dom ([source](https://github.com/eralpkaraduman/card-quest), [write-up](https://eralp.dev/posts/react-native-mobile-and-web-code-sharing/))_
 
 - An open-source single-player card game (Donsol) running on iOS, Android, and web from one React Native codebase, built to explore practical code-sharing between React Native and React web.
 - Ran both bundlers in a single project (Metro for native, Webpack for web with `react-native` aliased to `react-native-web`), splitting platform-specific code by `.native.ts` / `.web.ts` postfixes and keeping everything else shared.
 - Decoupled the game logic from React entirely as plain TypeScript (GameController, EventDispatcher, Observable), bound to the UI through a Context provider and hook, and kept platform-native navigation (react-navigation on mobile, react-router-dom on web) behind shared link/screen abstractions.
+
+**Super Damage Games: indie game-jam handle** · Sep 2013 – present  
+_Game jams, Ludum Dare ([Rockmorse](https://superdamage.itch.io/rockmorse))_
+
+- My indie game-development handle for game jams and experimental side projects.
+- Featured project, Rockmorse: an astronaut stranded on Mars, with only one-way communication to Earth, arranges Martian rocks into Morse code for passing satellites to read his replies; built for Ludum Dare and open-sourced, inspired by Andy Weir's The Martian.
