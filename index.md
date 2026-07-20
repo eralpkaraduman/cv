@@ -112,7 +112,7 @@ I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https
 **[Starship Technologies](https://www.starship.xyz/)**, Helsinki  
 _Senior Software Engineer_
 
-- Full-stack engineer building and owning internal web, mobile, and backend tools (React/React Native, Node/TypeScript/GraphQL, Kafka) that run the autonomous delivery fleet across 8 countries; defined a success metric for an internal ops tool and grew its weekly active usage to that target.
+- Full-stack engineer building and owning internal web, mobile, and backend tools (React/React Native, Node/TypeScript/GraphQL, Kafka) that run the autonomous delivery fleet across 8 countries; defined a success metric for an internal ops tool and grew its weekly active usage beyond that target.
 
 `June 2021 - June 2022`
 **[Qvik](https://qvik.com)**, Helsinki  
@@ -182,7 +182,7 @@ _Built and owned end to end, product owner · TypeScript, Hono, GraphQL, React, 
 
 - Built a read-only, mobile-first ops web app from scratch (backend, React UI, infra) giving site leads and customer-success managers a quick at-a-glance view of fleet status and targets across sites.
 - Hardest parts: aggregating live data from several upstream services into one fast, real-time view, and standing up the service's observability (structured logging, Prometheus/Grafana dashboards, OpenTelemetry tracing).
-- Defined the success metric and grew weekly active usage to its adoption target, across users in 8 countries.
+- Defined the success metric and grew weekly active usage beyond its adoption target, across users in 8 countries.
 
 **Mission Control: cross-site operational warnings dashboard** · 2023–2024  
 _Sole author · React, TypeScript, GraphQL, built into the "Hype" hypervisor panel_
