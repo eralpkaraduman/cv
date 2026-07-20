@@ -397,20 +397,20 @@ _Freelance · React Native native module, Objective-C, iOS SFSpeechRecognizer_
 
 ### Side Projects
 
-**[LinkedFin](https://linkedfin.net): multilingual fish-name etymology database**  
+**[LinkedFin](https://linkedfin.net): multilingual fish-name etymology database** · Jan 2025 – present  
 _Solo · React 19, TanStack (Start/Router/Query), TypeScript, SQLite-WASM, Kysely, Fuse.js, Cloudflare Pages + Pages Functions + D1, Vite, Tailwind ([source](https://github.com/eralpkaraduman/LinkedFin))_
 
 - A backendless single-page app: the entire fish-name etymology database ships as a SQLite file that the browser loads and queries fully client-side via the official SQLite WASM build (Kysely for queries, Fuse.js for fuzzy search), so all search and browsing happen in the frontend with no server or API.
 - Solved per-page link previews, which a JS-only SPA normally cannot have because crawlers do not run the client code: a Cloudflare Pages Function injects per-page Open Graph / Twitter meta tags via HTMLRewriter, and a separate function renders the preview image dynamically at the edge (workers-og).
 - Backed the OG data at the edge with a Cloudflare D1 database, kept in sync with the source SQLite database by a CI step that replicated it into D1; later simplified the pipeline to a build-time JSON snapshot bundled into the functions.
 
-**[Text Wallpaper](https://textwallpaper.com): text-to-image wallpaper generator**  
+**[Text Wallpaper](https://textwallpaper.com): text-to-image wallpaper generator** · Jan 2015 – present  
 _Solo · JavaScript SPA, iOS (Cordova/WebView wrapper), AdMob + Facebook Ads ([source](https://github.com/eralpkaraduman/text-wallpaper-generator))_
 
 - A personal side-project single-page app for generating text wallpapers, with a sizeable audience (~3,000 monthly active users).
 - Later shipped an iOS counterpart that wrapped the web app in a WebView and integrated AdMob and Facebook Ads SDKs for monetization.
 
-**Card Quest: a card game shared across mobile & web**  
+**Card Quest: a card game shared across mobile & web** · Jan 2021 – Mar 2021  
 _Solo · React Native, react-native-web, TypeScript, Metro + Webpack, styled-components, react-navigation + react-router-dom ([source](https://github.com/eralpkaraduman/card-quest), [write-up](https://eralp.dev/posts/react-native-mobile-and-web-code-sharing/))_
 
 - An open-source single-player card game (Donsol) running on iOS, Android, and web from one React Native codebase, built to explore practical code-sharing between React Native and React web.
