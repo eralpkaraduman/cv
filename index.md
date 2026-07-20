@@ -110,7 +110,7 @@ I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https
 **[Starship Technologies](https://www.starship.xyz/)**, Helsinki  
 _Senior Software Engineer_
 
-- Full-stack engineer building and owning internal web, mobile, and backend tools (React/React Native, Node/TypeScript/GraphQL, Kafka) that run the autonomous delivery fleet across 9 countries; drove internal-tool adoption to 100% of its target users, growing weekly active users (WAU) to a peak 140% above its low.
+- Full-stack engineer building and owning internal web, mobile, and backend tools (React/React Native, Node/TypeScript/GraphQL, Kafka) that run the autonomous delivery fleet across 8 countries; grew weekly active usage of an internal ops tool to its adoption target.
 
 `March 2019 - June 2022`
 **[Qvik](https://qvik.com)**, Helsinki  
@@ -174,7 +174,7 @@ _Sole engineer + product owner · TypeScript, Hono, GraphQL, React, Redis, Terra
 
 - Built a read-only, mobile-first ops web app from scratch (backend, React UI, infra) giving site leads and customer-success managers a quick at-a-glance view of fleet status and targets across sites.
 - Hardest parts: aggregating live data from several upstream services into one fast, real-time view, and standing up the service's observability (structured logging, Prometheus/Grafana dashboards, OpenTelemetry tracing).
-- Defined the success metric, drove adoption to 100% of the targeted operations users, and grew weekly active usage to a peak 140% above its lowest week, across users in 9 countries.
+- Defined the success metric and grew weekly active usage to its adoption target, across users in 8 countries.
 
 **Mission Control: cross-site operational warnings dashboard** · 2023–2024  
 _Sole author · React, TypeScript, GraphQL, built into the "Hype" hypervisor panel_
@@ -186,7 +186,7 @@ _Sole author · React, TypeScript, GraphQL, built into the "Hype" hypervisor pan
 **Mobile app re-platforming & delivery pipeline** · 2022–2026  
 _Sole engineer (re-architecture + CI/CD) · React Native (Android), TypeScript, GraphQL, GitHub Actions, Docker, Detox_
 
-- Migrated a field app (~450 MAU, 9 countries) from a managed Expo setup to bare React Native + typed GraphQL when its native needs outgrew the managed workflow.
+- Migrated a field app (~450 MAU, 8 countries) from a managed Expo setup to bare React Native + typed GraphQL when its native needs outgrew the managed workflow.
 - Built CI/CD from scratch (builds, signing, e2e, OTA), replacing a fully manual process where local builds were hand-uploaded to the device-management portal, so the team shipped updates and bug fixes far more frequently.
 
 **Visual equipment inspection & damage-reporting system** · 2023–2026  
@@ -215,7 +215,7 @@ _Lead engineer · certificate/PKI auth, MDM-managed devices, React Native, Node/
 **Backend service powering a global field-operations app** · 2022–2026  
 _Contributor → owner · Node.js, TypeScript, Kafka, GraphQL, MongoDB, push notifications, Cloudflare_
 
-- Owned a backend service in an event-driven microservices architecture (Kafka for inter-service communication) powering a ~450-user, 9-country mobile app with real-time data, access control, and push notifications.
+- Owned a backend service in an event-driven microservices architecture (Kafka for inter-service communication) powering a ~450-user, 8-country mobile app with real-time data, access control, and push notifications.
 - Improved event-streaming reliability (Kafka consumer groups, crash-safe consumers), authorization, and infra/security.
 
 #### Qvik
