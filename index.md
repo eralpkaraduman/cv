@@ -88,6 +88,8 @@ Engineer with 18 years shipping production software across the entire stack, now
 - **Native & Cross-Platform Mobile Apps**: 6+ years of native iOS (Swift, Obj-C) plus 7+ years of React Native and Flutter; apps shipped to the App Store.
 - **Cloud & infrastructure**: designing and operating server and streaming systems on AWS and GCP, with hands-on CI/CD, Docker, Kubernetes and build tooling.
 
+I ship independently, without hand-holding, and I build for the people who use what I make: I measure how each tool lands and improve it from there.
+
 I build and customize agentic workflows and AI coding agents to ship faster across all of the above.
 
 I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https://open.spotify.com/show/6Ace2VvsbkPKFkgqy4NWUc?si=baaec7c9731e4b77), and host live Twitch shows about software development.
@@ -110,7 +112,7 @@ I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https
 **[Starship Technologies](https://www.starship.xyz/)**, Helsinki  
 _Senior Software Engineer_
 
-- Full-stack engineer building and owning internal web, mobile, and backend tools (React/React Native, Node/TypeScript/GraphQL, Kafka) that run the autonomous delivery fleet across 8 countries; grew weekly active usage of an internal ops tool to its adoption target.
+- Full-stack engineer building and owning internal web, mobile, and backend tools (React/React Native, Node/TypeScript/GraphQL, Kafka) that run the autonomous delivery fleet across 8 countries; defined a success metric for an internal ops tool and grew its weekly active usage to that target.
 
 `June 2021 - June 2022`
 **[Qvik](https://qvik.com)**, Helsinki  
@@ -176,7 +178,7 @@ A deeper look at selected projects behind the roles listed above.
 Starship Technologies operates a large fleet of autonomous delivery robots across multiple countries. As a full-stack engineer I built the web, mobile, and backend systems its field and operations teams use to run the fleet.
 
 **Greenfield operations-management web platform** · 2026  
-_Sole engineer + product owner · TypeScript, Hono, GraphQL, React, Redis, Terraform, Prometheus, Grafana, OpenTelemetry, Amplitude_
+_Built and owned end to end, product owner · TypeScript, Hono, GraphQL, React, Redis, Terraform, Prometheus, Grafana, OpenTelemetry, Amplitude_
 
 - Built a read-only, mobile-first ops web app from scratch (backend, React UI, infra) giving site leads and customer-success managers a quick at-a-glance view of fleet status and targets across sites.
 - Hardest parts: aggregating live data from several upstream services into one fast, real-time view, and standing up the service's observability (structured logging, Prometheus/Grafana dashboards, OpenTelemetry tracing).
@@ -186,11 +188,11 @@ _Sole engineer + product owner · TypeScript, Hono, GraphQL, React, Redis, Terra
 _Sole author · React, TypeScript, GraphQL, built into the "Hype" hypervisor panel_
 
 - Before this, site leads and operations staff had no single view of operational warnings: understaffed sites, offline robots, fleet issues, road closures, and weather alarms were scattered and easy to miss.
-- Sole-built a real-time, per-service-area overview with at-a-glance red/green indicators across deliveries, tasks, online robots, staffing, merchants, fleet, closures, and weather alarms, letting ops spot problems across every site at once and drill into any area.
+- Built a real-time, per-service-area overview with at-a-glance red/green indicators across deliveries, tasks, online robots, staffing, merchants, fleet, closures, and weather alarms, letting ops spot problems across every site at once and drill into any area.
 - Adopted by the control-center team; later succeeded by a separate read-only, mobile-first quick-glance tool (operations-overview, above), making me owner of the product line across two generations.
 
 **Mobile app re-platforming & delivery pipeline** · 2022–2026  
-_Sole engineer (re-architecture + CI/CD) · React Native (Android), TypeScript, GraphQL, GitHub Actions, Docker, Detox_
+_Led the re-architecture and built the CI/CD · React Native (Android), TypeScript, GraphQL, GitHub Actions, Docker, Detox_
 
 - Migrated a field app (~450 MAU, 8 countries) from a managed Expo setup to bare React Native + typed GraphQL when its native needs outgrew the managed workflow.
 - Built CI/CD from scratch (builds, signing, e2e, OTA), replacing a fully manual process where local builds were hand-uploaded to the device-management portal, so the team shipped updates and bug fixes far more frequently.
@@ -200,10 +202,10 @@ _Full-stack engineer + interaction design · React Native (SVG-in-WebView diagra
 
 - Built a guided inspection flow around an interactive 2D diagram of the delivery robot: the inspector taps a part to select it, then enters damage details for that exact component, attaching video evidence, tracking spare parts, and auto-linking and de-duplicating related tickets.
 - Hardest part: making the diagram interactive by embedding an SVG in a WebView inside the React Native app and building a custom bidirectional event bridge between WebView and React Native to keep part selection and damage state in sync across the two.
-- Replaced ambiguous, duplicated free-form tickets with clear, structured repair reports; shipped with a feature-flagged rollout and in-app training.
+- Replaced ambiguous, duplicated free-form tickets with clear, structured repair reports, and rolled it out to inspectors in stages with feature flags and in-app training.
 
 **Hardware integration: native mobile printer plugin & returns (RMA) workflow** · 2022–2023  
-_Built it · React Native native module (Java/Kotlin), USB/Bluetooth I/O, Node/TypeScript, GraphQL_
+_Designed and built it · React Native native module (Java/Kotlin), USB/Bluetooth I/O, Node/TypeScript, GraphQL_
 
 - Built a custom native module bridging the app to a USB/Bluetooth label printer, handling device I/O at the native layer and Android-version print-compatibility issues, plus the returns workflow and automatic return-order creation against the inventory system.
 
@@ -361,7 +363,7 @@ _Freelance Software Consultant · Helsinki (hybrid) · Nov 2024 – July 2025_
 Arca (Lifeline Ventures–backed) is a content-curation app where people collect content into personalized portals. As the sole mobile engineer I bootstrapped the full product in ~6 weeks: the React Native mobile app, a Next.js web app, and the GCP backend and release infrastructure.
 
 **Cross-platform mobile app & share-sheet extension**  
-_Freelance, sole mobile engineer · React Native, TypeScript, iOS & Android_
+_Freelance mobile engineer · React Native, TypeScript, iOS & Android_
 
 - Built the React Native app shipped to iOS & Android, including a share-sheet extension that lets users save content into Arca from any other app.
 - Built the share-sheet UI in React Native too, running it from a second, slightly modified entrypoint in the same codebase rather than as a separate native UI.
