@@ -79,6 +79,7 @@ Senior Full-Stack & Mobile Engineer · Web · Native Mobile · Cloud Infrastruct
 
 | **E-Mail** | [eralp@eralp.dev](mailto:eralp@eralp.dev) |
 | **Website** | [eralp.dev](https://eralp.dev) |
+| **Projects** | [eralp.dev/projects](https://eralp.dev/projects/) |
 | **LinkedIn** | [linkedin.com/in/eralpkaraduman](https://linkedin.com/in/eralpkaraduman) |
 | **GitHub** | [github.com/eralpkaraduman](https://github.com/eralpkaraduman) |
 
@@ -92,7 +93,7 @@ I ship independently, without hand-holding, and I build for the people who use w
 
 I build and customize agentic workflows and AI coding agents to ship faster across all of the above.
 
-I also write at [eralp.dev](https://eralp.dev), produce a [comedy podcast](https://open.spotify.com/show/6Ace2VvsbkPKFkgqy4NWUc?si=baaec7c9731e4b77), and host live Twitch shows about software development.
+I also write at [eralp.dev](https://eralp.dev), post [screenshots and demos of my side projects](https://eralp.dev/projects/), produce a [comedy podcast](https://open.spotify.com/show/6Ace2VvsbkPKFkgqy4NWUc?si=baaec7c9731e4b77), and host live Twitch shows about software development.
 
 ## Core Skills
 
@@ -405,6 +406,8 @@ _Freelance · React Native native module, Objective-C, iOS SFSpeechRecognizer_
 - Streamed recognition results from the native layer to the React Native side in real time over an event-based bridge.
 
 ### Side Projects
+
+Screenshots and short demos of these are at [eralp.dev/projects](https://eralp.dev/projects/).
 
 **[LinkedFin](https://linkedfin.net): multilingual fish-name etymology database** · Jan 2025 – present  
 _React 19, TanStack (Start/Router/Query), TypeScript, SQLite-WASM, Kysely, Fuse.js, Cloudflare Pages + Pages Functions + D1, Vite, Tailwind ([source](https://github.com/eralpkaraduman/LinkedFin))_
