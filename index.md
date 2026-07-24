@@ -36,6 +36,9 @@ jsonld:
     - Lua
     - Node.js
     - GraphQL
+    - Python
+    - FastAPI
+    - Pydantic
     - Socket.IO
     - PostgreSQL
     - MySQL
@@ -102,10 +105,10 @@ I also write at [eralp.dev](https://eralp.dev), post [screenshots and demos of m
 | Mobile           | Swift, Objective-C, React Native, Flutter / Dart, native iOS & Android |
 | Frontend         | React, Next.js, Redux, TypeScript, JavaScript, SPA architecture        |
 | 3D / Graphics    | Three.js, React Three Fiber, Blender                                   |
-| Backend          | Node.js, GraphQL, Socket.IO, PostgreSQL, MySQL, MongoDB, SQLite, Redis, Kafka |
+| Backend          | Node.js, GraphQL, FastAPI, Pydantic, Socket.IO, PostgreSQL, MySQL, MongoDB, SQLite, Redis, Kafka |
 | Cloud & Infra    | GCP, AWS, Firebase, Cloudflare Workers, Cloudflare Pages, Coolify, Docker, Kubernetes, Microservices, Distributed Architectures, CI/CD, Observability (Prometheus, Grafana, OpenTelemetry), Mobile Ops, Fastlane, Jenkins |
 | AI-Augmented Dev | AI coding agents, agentic workflows, prompt engineering, generative AI   |
-| Languages        | TypeScript / JavaScript, Swift, Objective-C, Dart, Lua                 |
+| Languages        | TypeScript / JavaScript, Swift, Objective-C, Dart, Lua, Python         |
 
 ## Work Experience
 
@@ -361,7 +364,7 @@ _FLARToolKit, Papervision3D, ActionScript 3_
 
 _Freelance Software Consultant · Helsinki (hybrid) · Nov 2024 – July 2025_
 
-Arca (Lifeline Ventures–backed) is a content-curation app where people collect content into personalized portals. As the sole mobile engineer I bootstrapped the full product in ~6 weeks: the React Native mobile app, a Next.js web app, and the GCP backend and release infrastructure.
+Arca (Lifeline Ventures–backed) is a content-curation app where people collect content into personalized portals. As the mobile engineer on the team I bootstrapped the React Native app and its CI/CD in about six weeks, built its share-sheet extension, and helped with the GCP backend's scheduled tasks.
 
 **Cross-platform mobile app & share-sheet extension**  
 _Freelance mobile engineer · React Native, TypeScript, iOS & Android_
