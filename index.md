@@ -186,7 +186,7 @@ _Built and owned end to end, product owner · TypeScript, Hono, GraphQL, React, 
 
 - Built a read-only, mobile-first ops web app from scratch (backend, React UI, infra) giving site leads and customer-success managers a quick at-a-glance view of fleet status and targets across sites.
 - Hardest parts: aggregating live data from several upstream services into one fast, real-time view, and standing up the service's observability (structured logging, Prometheus/Grafana dashboards, OpenTelemetry tracing).
-- Defined the success metric and grew weekly active usage beyond its adoption target, across users in 8 countries.
+- Defined the success metric and exceeded the adoption OKR I set: every targeted key user converted to weekly-active, and additional non-key users adopted it too, across 8 countries.
 
 **Mission Control: cross-site operational warnings dashboard** · 2023–2024  
 _Sole author · React, TypeScript, GraphQL, built into the "Hype" hypervisor panel_
@@ -228,7 +228,7 @@ _Lead engineer · certificate/PKI auth, MDM-managed devices, React Native, Node/
 _Contributor → owner · Node.js, TypeScript, Kafka, GraphQL, MongoDB, push notifications, Cloudflare_
 
 - Owned a backend service in an event-driven microservices architecture (Kafka for inter-service communication) powering a ~450-user, 8-country mobile app with real-time data, access control, and push notifications.
-- Improved event-streaming reliability (Kafka consumer groups, crash-safe consumers), authorization, and infra/security.
+- Owned the service's authorization and infra/security.
 
 #### Qvik
 
