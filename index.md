@@ -198,7 +198,7 @@ _Sole author · React, TypeScript, GraphQL, built into the "Hype" hypervisor pan
 **Mobile app re-platforming & delivery pipeline** · 2022–2026  
 _Led the re-architecture and built the CI/CD · React Native (Android), TypeScript, GraphQL, GitHub Actions, Docker, Detox_
 
-- Migrated a field app (~450 MAU, 8 countries) from a managed Expo setup to bare React Native + typed GraphQL when its native needs outgrew the managed workflow.
+- Migrated a field app (~200 MAU, 8 countries) from a managed Expo setup to bare React Native + typed GraphQL when its native needs outgrew the managed workflow.
 - Built CI/CD from scratch (builds, signing, e2e, OTA), replacing a fully manual process where local builds were hand-uploaded to the device-management portal, so the team shipped updates and bug fixes far more frequently.
 
 **Visual equipment inspection & damage-reporting system** · 2023–2026  
@@ -227,7 +227,7 @@ _Lead engineer · certificate/PKI auth, MDM-managed devices, React Native, Node/
 **Backend service powering a global field-operations app** · 2022–2026  
 _Contributor → owner · Node.js, TypeScript, Kafka, GraphQL, MongoDB, push notifications, Cloudflare_
 
-- Owned a backend service in an event-driven microservices architecture (Kafka for inter-service communication) powering a ~450-user, 8-country mobile app with real-time data, access control, and push notifications.
+- Owned a backend service in an event-driven microservices architecture (Kafka for inter-service communication) powering a ~200-user, 8-country mobile app with real-time data, access control, and push notifications.
 - Owned the service's authorization and infra/security.
 
 #### Qvik
