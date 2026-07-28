@@ -182,7 +182,7 @@ A deeper look at selected projects behind the roles listed above.
 Starship Technologies operates a large fleet of autonomous delivery robots across multiple countries. As a full-stack engineer I built the web, mobile, and backend systems its field and operations teams use to run the fleet.
 
 **Greenfield operations-management web platform** · 2026  
-_Built and owned end to end, product owner · TypeScript, Hono, GraphQL, React, Redis, Kafka, Terraform, Prometheus, Grafana, OpenTelemetry, Amplitude_
+_Built and owned end to end, product owner · TypeScript, Hono, GraphQL, React, Redis, Terraform, Prometheus, Grafana, OpenTelemetry, Amplitude_
 
 - Built a read-only, mobile-first ops web app from scratch (backend, React UI, infra) giving site leads and customer-success managers a quick at-a-glance view of fleet status and targets across sites.
 - Hardest parts: aggregating live data from several upstream services into one fast, real-time view, and standing up the service's observability (structured logging, Prometheus/Grafana dashboards, OpenTelemetry tracing).
