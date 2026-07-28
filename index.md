@@ -186,7 +186,7 @@ _Built and owned end to end, product owner · TypeScript, Hono, GraphQL, React, 
 
 - Built a read-only, mobile-first ops web app from scratch (backend, React UI, infra) giving site leads and customer-success managers a quick at-a-glance view of fleet status and targets across sites.
 - Hardest parts: aggregating live data from several upstream services into one fast, real-time view, and standing up the service's observability (structured logging, Prometheus/Grafana dashboards, OpenTelemetry tracing).
-- Defined the success metric and exceeded the adoption OKR I set: every targeted key user converted to weekly-active, and additional non-key users adopted it too, across 8 countries.
+- Defined the success metric and passed the adoption target I set: at least half of the roughly 20 key users active weekly within the quarter. It cleared that bar in the first month, with non-key users picking it up too, across 8 countries.
 
 **Mission Control: cross-site operational warnings dashboard** · 2023–2024  
 _Sole author · React, TypeScript, GraphQL, built into the "Hype" hypervisor panel_
