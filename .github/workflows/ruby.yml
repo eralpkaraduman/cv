@@ -3,6 +3,11 @@ name: Build PDF and Release
 on:
   push:
     branches: [gh-pages]
+    # The "publish PDF" step below commits the rebuilt PDF back to gh-pages.
+    # Pushes made with GITHUB_TOKEN don't re-trigger workflows, but ignore the
+    # path too so a manual `git push` of just the PDF can't start a loop either.
+    paths-ignore:
+      - 'Eralp-Karaduman-CV.pdf'
 
 # Allow the default GITHUB_TOKEN to create tags/releases.
 permissions:
@@ -33,6 +38,25 @@ jobs:
       # build-pdf writes _pdfbuild/Eralp-Karaduman-CV.pdf with the download-link JS disabled.
       - name: Build PDF
         run: docker run --rm -v "$PWD":/cv cv-jekyll:latest build-pdf
+
+      # Serve the PDF from the Pages site itself. Same origin as a page the
+      # visitor already loaded, Content-Type: application/pdf, no attachment
+      # disposition, so it previews inline instead of failing silently behind a
+      # corporate proxy or a mobile in-app browser.
+      - name: Publish PDF to the Pages site
+        run: |
+          set -e
+          cp _pdfbuild/Eralp-Karaduman-CV.pdf ./Eralp-Karaduman-CV.pdf
+          # --porcelain (not `git diff`) so an untracked file on the first run counts as a change.
+          if [ -z "$(git status --porcelain -- Eralp-Karaduman-CV.pdf)" ]; then
+            echo "PDF unchanged, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Eralp-Karaduman-CV.pdf
+          git commit -m "Publish rebuilt CV PDF to the Pages site [skip ci]"
+          git push origin HEAD:gh-pages
 
       - name: Compute release tag
         id: tag

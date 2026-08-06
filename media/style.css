@@ -757,3 +757,90 @@ Custom styles
     padding: 15px;
   }
 }
+
+/*
+Print styles.
+
+Cmd/Ctrl+P is the fallback that nothing can block: no download, no third-party
+domain, no redirect. It has to produce a usable document on its own.
+
+Note this block does not affect the generated PDF: wkhtmltopdf renders with
+screen media unless --print-media-type is passed, and make_pdf.rb doesn't pass
+it. So the PDF keeps looking exactly like the site, and these rules only apply
+when someone prints from a browser.
+*/
+
+@page {
+  size: A4;
+  margin: 12mm;
+}
+
+@media print {
+  .markdown-body {
+    max-width: none;
+    padding: 0;
+    font-size: 11pt;
+  }
+
+  /* Chrome to the printer: no point printing a download button or a "get the
+     latest online" footer onto paper. The footer <hr> goes with it. */
+  #cv-header,
+  .cv-updated,
+  body > hr:last-of-type {
+    display: none !important;
+  }
+
+  /* A printed CV loses every clickable link, so spell the destinations out.
+     Skipped inside tables (the contact rows already show readable URLs). */
+  .markdown-body a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    font-weight: normal;
+    color: #444;
+    word-break: break-all;
+  }
+
+  .markdown-body table a[href]::after {
+    content: "";
+  }
+
+  /* Don't strand a heading at the bottom of a page, and don't split a role or
+     project entry across two. */
+  .markdown-body h1,
+  .markdown-body h2,
+  .markdown-body h3,
+  .markdown-body h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .markdown-body p,
+  .markdown-body li,
+  .markdown-body ul,
+  .markdown-body blockquote,
+  .markdown-body tr {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Core Skills has long cells; let them wrap instead of running off the page. */
+  .markdown-body table {
+    width: 100%;
+    table-layout: fixed;
+    display: table;
+    overflow: visible;
+  }
+
+  .markdown-body table td,
+  .markdown-body table th {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .markdown-body a {
+    color: #000;
+    text-decoration: none;
+  }
+}

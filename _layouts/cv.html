@@ -48,7 +48,12 @@
   {% endif %}
 </head>
 <body class="markdown-body">
-{% if site.shouldInjectCvDownloadLink != "NO" %}<div id="cv-header"><a class="download-button" data-umami-event="PDF Download" href="https://github.com/{{ site.github.owner_name }}/{{ site.github.project_title }}/releases/latest/download/Eralp-Karaduman-CV.pdf">Download as PDF</a></div>{% endif %}
+{% if site.shouldInjectCvDownloadLink != "NO" %}<!-- Same-origin PDF: the CI workflow commits the generated Eralp-Karaduman-CV.pdf
+     next to index.md, so Pages serves it from this very host as application/pdf
+     (inline-viewable). The GitHub release asset still exists as a versioned
+     permalink, but it 302s to a third-party CDN with Content-Disposition:
+     attachment, which corporate proxies and in-app browsers can block silently. -->
+<div id="cv-header"><a class="download-button" data-umami-event="PDF Download" href="Eralp-Karaduman-CV.pdf">Download as PDF</a></div>{% endif %}
 {{ content }}
 <hr>
 <p class="cv-updated">Updated {{ site.time | date: "%B %-d %Y" }}. <a href="https://{{site.github.owner_name}}.github.io/{{site.github.project_title}}">Get latest</a></p>

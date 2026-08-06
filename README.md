@@ -43,11 +43,23 @@ repo's **Settings → Actions → General → Workflow permissions** is set to
 - Latest release is conveniently always at `/releases/latest`
 
 
+The same workflow also commits the rebuilt PDF back to `gh-pages` as
+`Eralp-Karaduman-CV.pdf`, so GitHub Pages serves it from the site itself at
+`/cv/Eralp-Karaduman-CV.pdf`. Pushes made with `GITHUB_TOKEN` don't re-trigger
+workflows, and the push trigger ignores that path anyway, so there's no loop.
+
+
 ## Including downlad link to PDF version in the website
 
-I added a feature which automatically adds the latest PDF version download link to the website.   
-This only works when automatic PDF version generation was set up (mentioned above).   
-This is done by javascript running on the page, it tries to fetch github's API to get the last release.  
+The "Download as PDF" button in `_layouts/cv.html` points at the same-origin
+`Eralp-Karaduman-CV.pdf` on the Pages site, not at the GitHub release asset.
+The release URL 302s to `release-assets.githubusercontent.com` and serves
+`application/octet-stream` with `Content-Disposition: attachment`, which
+corporate proxies and mobile in-app browsers can block with no visible error
+and no inline fallback. Same origin plus `application/pdf` means the file
+previews inline from a host the visitor has already loaded successfully. The
+release asset stays as a versioned permalink.
+
 This link won't be generated in the PDF itself for several reasons;  
 - Lack of necessity, since you have the pdf there's no need to download it again.
 - I didn't want to figure out the issues with executing javascript in pdf generation context
@@ -104,8 +116,12 @@ docker run --rm --platform linux/amd64 -v "$PWD":/cv cv-jekyll build-pdf
 ```
 
 Notes:
-- The download button links to the latest **GitHub release** PDF, not the local
-  `_pdfbuild/Eralp-Karaduman-CV.pdf`, so locally it points at whatever CI last published.
+- The download button is a relative link to `Eralp-Karaduman-CV.pdf` at the repo
+  root, so locally it serves whatever version is committed there, not the fresh
+  `_pdfbuild/Eralp-Karaduman-CV.pdf` you just generated. Copy it over if you want
+  to preview the new one.
+- The PDF is rendered at A4 (`make_pdf.rb`), and wkhtmltopdf uses screen media,
+  so the `@media print` rules in `media/style.css` apply only to browser printing.
 - The base image is Debian buster (EOL), so the `Dockerfile` repoints `apt` at
   `archive.debian.org`; `wkhtmltopdf` uses the patched-Qt build and runs headless
   (no `xvfb` needed, unlike CI).
