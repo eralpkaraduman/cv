@@ -4,3 +4,4 @@ _pdfbuild/
 *.swp
 cover-letters/
 .DS_Store
+.wrangler/
