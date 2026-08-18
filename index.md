@@ -36,6 +36,8 @@ jsonld:
     - Lua
     - Node.js
     - GraphQL
+    - REST APIs
+    - API design
     - Python
     - FastAPI
     - Pydantic
@@ -105,7 +107,7 @@ I also write at [eralp.dev](https://eralp.dev), post [screenshots and demos of m
 | Mobile           | Swift, Objective-C, React Native, Flutter / Dart, native iOS & Android |
 | Frontend         | React, Next.js, Redux, TypeScript, JavaScript, SPA architecture        |
 | 3D / Graphics    | Three.js, React Three Fiber, Blender                                   |
-| Backend          | Node.js, GraphQL, FastAPI, Pydantic, Socket.IO, PostgreSQL, MySQL, MongoDB, SQLite, Redis, Kafka |
+| Backend          | Node.js, REST & GraphQL API design, FastAPI, Pydantic, Socket.IO, PostgreSQL, MySQL, MongoDB, SQLite, Redis, Kafka |
 | Cloud & Infra    | GCP, AWS, Firebase, Cloudflare Workers, Cloudflare Pages, Coolify, Docker, Kubernetes, Microservices, Distributed Architectures, CI/CD, Observability (Prometheus, Grafana, OpenTelemetry), Mobile Ops, Fastlane, Jenkins |
 | AI-Augmented Dev | AI coding agents, agentic workflows, prompt engineering, generative AI   |
 | Languages        | TypeScript / JavaScript, Swift, Objective-C, Dart, Lua, Python         |
