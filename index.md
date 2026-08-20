@@ -7,9 +7,10 @@ jsonld:
   name: Eralp Karaduman
   jobTitle: Senior Full-Stack & Mobile Engineer
   description: >-
-    Senior Full-Stack & Mobile Engineer with 18 years across web, native mobile
-    (iOS, React Native, Flutter), and cloud (AWS, GCP), now increasingly
-    AI-augmented, building agentic workflows to ship faster.
+    Senior Full-Stack & Mobile Engineer with 18 years across backend and cloud
+    (Node.js, Kafka, AWS, GCP), web, and native mobile (iOS, React Native,
+    Flutter), now increasingly AI-augmented, building agentic workflows to ship
+    faster.
   email: eralp@eralp.dev
   url: https://eralp.dev
   canonical: https://eralpkaraduman.github.io/cv/
@@ -23,53 +24,53 @@ jsonld:
     - https://github.com/eralpkaraduman
     - https://eralp.dev
   knowsAbout:
-    - React
-    - Next.js
-    - Redux
-    - React Native
-    - TypeScript
-    - JavaScript
-    - Swift
-    - Objective-C
-    - Flutter
-    - Dart
-    - Lua
     - Node.js
+    - TypeScript
     - GraphQL
     - REST APIs
     - API design
+    - Kafka
+    - Microservices
+    - Distributed architectures
+    - MongoDB
+    - Redis
+    - PostgreSQL
+    - MySQL
+    - SQLite
+    - Socket.IO
     - Python
     - FastAPI
     - Pydantic
-    - Socket.IO
-    - PostgreSQL
-    - MySQL
-    - MongoDB
-    - SQLite
-    - Redis
-    - Kafka
-    - iOS development
-    - Cross-platform mobile development
-    - SPA architecture
-    - Three.js
-    - React Three Fiber
-    - Blender
     - AWS
     - GCP
     - Firebase
-    - Cloudflare Workers
-    - Cloudflare Pages
-    - Coolify
     - Docker
     - Kubernetes
-    - Microservices
-    - Distributed architectures
     - CI/CD
     - Prometheus
     - Grafana
     - OpenTelemetry
-    - Fastlane
+    - Cloudflare Workers
+    - Cloudflare Pages
+    - Coolify
     - Jenkins
+    - Fastlane
+    - iOS development
+    - Swift
+    - Objective-C
+    - React Native
+    - Flutter
+    - Dart
+    - Cross-platform mobile development
+    - React
+    - Next.js
+    - Redux
+    - JavaScript
+    - SPA architecture
+    - Three.js
+    - React Three Fiber
+    - Blender
+    - Lua
     - AI-augmented engineering
     - Generative AI
     - Large Language Models
@@ -80,7 +81,7 @@ jsonld:
 
 # Eralp Karaduman
 
-Senior Full-Stack & Mobile Engineer · Web · Native Mobile · Cloud Infrastructure
+Senior Full-Stack & Mobile Engineer · Backend & Cloud Infrastructure · Web · Native Mobile
 
 | **E-Mail** | [eralp@eralp.dev](mailto:eralp@eralp.dev) |
 | **Website** | [eralp.dev](https://eralp.dev) |
@@ -90,9 +91,9 @@ Senior Full-Stack & Mobile Engineer · Web · Native Mobile · Cloud Infrastruct
 
 Engineer with 18 years shipping production software across the entire stack, now increasingly AI-augmented. Genuine depth in three areas that rarely overlap in one person:
 
-- **Frontend & Backend Full-Stack**: React, TypeScript, 9+ years building and running production web apps end to end.
+- **Backend & Cloud Infrastructure**: 8+ years building and running production backend services. Node.js and TypeScript, REST & GraphQL API design, Kafka event-driven microservices; server and streaming systems on AWS and GCP, with hands-on CI/CD, Docker, Kubernetes and build tooling.
 - **Native & Cross-Platform Mobile Apps**: 6+ years of native iOS (Swift, Obj-C) plus 7+ years of React Native and Flutter; apps shipped to the App Store.
-- **Cloud & infrastructure**: designing and operating server and streaming systems on AWS and GCP, with hands-on CI/CD, Docker, Kubernetes and build tooling.
+- **Full-Stack Web**: React, TypeScript, 9+ years building and running production web apps end to end.
 
 I ship independently, without hand-holding, and I build for the people who use what I make: I measure how each tool lands and improve it from there.
 
@@ -104,11 +105,11 @@ I also write at [eralp.dev](https://eralp.dev), post [screenshots and demos of m
 
 | Area             | Technologies                                                           |
 | ---------------- | ---------------------------------------------------------------------- |
+| Backend          | Node.js, REST & GraphQL API design, FastAPI, Pydantic, Socket.IO, PostgreSQL, MySQL, MongoDB, SQLite, Redis, Kafka |
+| Cloud & Infra    | GCP, AWS, Firebase, Cloudflare Workers, Cloudflare Pages, Coolify, Docker, Kubernetes, Microservices, Distributed Architectures, CI/CD, Observability (Prometheus, Grafana, OpenTelemetry), Mobile Ops, Fastlane, Jenkins |
 | Mobile           | Swift, Objective-C, React Native, Flutter / Dart, native iOS & Android |
 | Frontend         | React, Next.js, Redux, TypeScript, JavaScript, SPA architecture        |
 | 3D / Graphics    | Three.js, React Three Fiber, Blender                                   |
-| Backend          | Node.js, REST & GraphQL API design, FastAPI, Pydantic, Socket.IO, PostgreSQL, MySQL, MongoDB, SQLite, Redis, Kafka |
-| Cloud & Infra    | GCP, AWS, Firebase, Cloudflare Workers, Cloudflare Pages, Coolify, Docker, Kubernetes, Microservices, Distributed Architectures, CI/CD, Observability (Prometheus, Grafana, OpenTelemetry), Mobile Ops, Fastlane, Jenkins |
 | AI-Augmented Dev | AI coding agents, agentic workflows, prompt engineering, generative AI   |
 | Languages        | TypeScript / JavaScript, Swift, Objective-C, Dart, Lua, Python         |
 
@@ -118,7 +119,7 @@ I also write at [eralp.dev](https://eralp.dev), post [screenshots and demos of m
 **[Starship Technologies](https://www.starship.xyz/)**, Helsinki  
 _Senior Software Engineer_
 
-- Full-stack engineer building and owning internal web, mobile, and backend tools (React/React Native, Node/TypeScript/GraphQL, Kafka) that run the autonomous delivery fleet across 8 countries; defined a success metric for an internal ops tool and grew its weekly active usage beyond that target.
+- Full-stack engineer building and owning internal backend services, web, and mobile tools (Node/TypeScript/GraphQL, Kafka, React/React Native) that run the autonomous delivery fleet across 8 countries; defined the success metric for an internal ops tool and cleared the adoption target in its first month.
 
 `June 2021 - June 2022`
 **[Qvik](https://qvik.com)**, Helsinki  
@@ -181,7 +182,19 @@ A deeper look at selected projects behind the roles listed above.
 
 #### Starship Technologies
 
-Starship Technologies operates a large fleet of autonomous delivery robots across multiple countries. As a full-stack engineer I built the web, mobile, and backend systems its field and operations teams use to run the fleet.
+Starship Technologies operates a large fleet of autonomous delivery robots across multiple countries. As a full-stack engineer I built the backend, web, and mobile systems its field and operations teams use to run the fleet.
+
+**Backend service powering a global field-operations app** · 2022–2026  
+_Contributor → owner · Node.js, TypeScript, Kafka, GraphQL, MongoDB, push notifications, Cloudflare_
+
+- Owned a backend service in an event-driven microservices architecture (Kafka for inter-service communication) powering a ~200-user, 8-country mobile app with real-time data, access control, and push notifications.
+- Owned the service's authorization and infra/security.
+
+**Certificate-based device sign-in for shared, externally-operated devices** · 2025–2026  
+_IC, main responsible · certificate/PKI auth, MDM-managed devices, React Native, Node/TypeScript_
+
+- Built a certificate-based alternative to SSO for shared devices without per-user identities: the in-app certificate sign-in flow plus server-side certificate validation and session issuance.
+- Live in production, rolled out in stages across selected countries, sites, and key operators (currently enabled in a subset of countries).
 
 **Greenfield operations-management web platform** · 2026  
 _IC, OKR owner and main responsible · TypeScript, Hono, GraphQL, React, Redis, Terraform, Prometheus, Grafana, OpenTelemetry, Amplitude_
@@ -197,11 +210,10 @@ _IC, OKR owner and main responsible · React, TypeScript, GraphQL, built into th
 - Built a real-time, per-service-area overview with at-a-glance red/green indicators across deliveries, tasks, online robots, staffing, merchants, fleet, closures, and weather alarms, letting ops spot problems across every site at once and drill into any area.
 - Adopted by the control-center team; later succeeded by a separate read-only, mobile-first quick-glance tool (operations-overview, above), making me owner of the product line across two generations.
 
-**Mobile app re-platforming & delivery pipeline** · 2022–2026  
-_Led the re-architecture and built the CI/CD · React Native (Android), TypeScript, GraphQL, GitHub Actions, Docker, Detox_
+**Charging-infrastructure management tooling** · 2022–2026  
+_Contributor (mobile/web/backend) · React Native, React, Node/TypeScript, GraphQL_
 
-- Migrated a field app (~200 MAU, 8 countries) from a managed Expo setup to bare React Native + typed GraphQL when its native needs outgrew the managed workflow.
-- Built CI/CD from scratch (builds, signing, e2e, OTA), replacing a fully manual process where local builds were hand-uploaded to the device-management portal, so the team shipped updates and bug fixes far more frequently.
+- Full-stack tooling to provision, monitor, repair, and track the fleet's custom charging stations across the field app, web panels (alerts, energy-management), and backend (scheduling, charger service, inventory).
 
 **Visual equipment inspection & damage-reporting system** · 2023–2026  
 _Full-stack engineer + interaction design · React Native (SVG-in-WebView diagram, video, barcode), Node/TypeScript, GraphQL_
@@ -210,27 +222,16 @@ _Full-stack engineer + interaction design · React Native (SVG-in-WebView diagra
 - Hardest part: making the diagram interactive by embedding an SVG in a WebView inside the React Native app and building a custom bidirectional event bridge between WebView and React Native to keep part selection and damage state in sync across the two.
 - Replaced ambiguous, duplicated free-form tickets with clear, structured repair reports, and rolled it out to inspectors in stages with feature flags and in-app training.
 
+**Mobile app re-platforming & delivery pipeline** · 2022–2026  
+_Led the re-architecture and built the CI/CD · React Native (Android), TypeScript, GraphQL, GitHub Actions, Docker, Detox_
+
+- Migrated a field app (~200 MAU, 8 countries) from a managed Expo setup to bare React Native + typed GraphQL when its native needs outgrew the managed workflow.
+- Built CI/CD from scratch (builds, signing, e2e, OTA), replacing a fully manual process where local builds were hand-uploaded to the device-management portal, so the team shipped updates and bug fixes far more frequently.
+
 **Hardware integration: native mobile printer plugin & returns (RMA) workflow** · 2022–2023  
 _Designed and built it · React Native native module (Java/Kotlin), USB/Bluetooth I/O, Node/TypeScript, GraphQL_
 
 - Built a custom native module bridging the app to a USB/Bluetooth label printer, handling device I/O at the native layer and Android-version print-compatibility issues, plus the returns workflow and automatic return-order creation against the inventory system.
-
-**Charging-infrastructure management tooling** · 2022–2026  
-_Contributor (mobile/web/backend) · React Native, React, Node/TypeScript, GraphQL_
-
-- Full-stack tooling to provision, monitor, repair, and track the fleet's custom charging stations across the field app, web panels (alerts, energy-management), and backend (scheduling, charger service, inventory).
-
-**Certificate-based device sign-in for shared, externally-operated devices** · 2025–2026  
-_IC, main responsible · certificate/PKI auth, MDM-managed devices, React Native, Node/TypeScript_
-
-- Built a certificate-based alternative to SSO for shared devices without per-user identities: the in-app certificate sign-in flow plus server-side certificate validation and session issuance.
-- Live in production, rolled out in stages across selected countries, sites, and key operators (currently enabled in a subset of countries).
-
-**Backend service powering a global field-operations app** · 2022–2026  
-_Contributor → owner · Node.js, TypeScript, Kafka, GraphQL, MongoDB, push notifications, Cloudflare_
-
-- Owned a backend service in an event-driven microservices architecture (Kafka for inter-service communication) powering a ~200-user, 8-country mobile app with real-time data, access control, and push notifications.
-- Owned the service's authorization and infra/security.
 
 #### Qvik
 
