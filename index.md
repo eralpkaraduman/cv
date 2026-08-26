@@ -367,7 +367,7 @@ _FLARToolKit, Papervision3D, ActionScript 3_
 
 _Freelance Software Consultant · Helsinki (hybrid) · Nov 2024 – July 2025_
 
-Arca (Lifeline Ventures–backed) is a content-curation app where people collect content into personalized portals. As the mobile engineer on the team I bootstrapped the React Native app and its CI/CD in about six weeks, built its share-sheet extension, and helped with the GCP backend's scheduled tasks.
+Arca (Lifeline Ventures–backed) is a content-curation app where people collect content into personalized portals. As the mobile engineer on the team I bootstrapped the React Native app and its CI/CD in about six weeks and built its share-sheet extension. I also worked on the Next.js web app alongside the rest of the team, and on the GCP backend's scheduled tasks.
 
 **Cross-platform mobile app & share-sheet extension**  
 _Freelance mobile engineer · React Native, TypeScript, iOS & Android_
@@ -379,13 +379,14 @@ _Freelance mobile engineer · React Native, TypeScript, iOS & Android_
   - Staying within the iOS share extension's tight memory budget so the OS did not kill the React Native runtime mid-share.
   - Normalizing the different content types the OS passes in (URLs, text, images) into one save flow.
 
-**Mobile release infrastructure & backend support**  
-_React Native, Fastlane, CodePush (OTA), GCP_
+**Mobile release infrastructure, backend & web support**  
+_React Native, Fastlane, CodePush (OTA), GCP, Next.js, TypeScript_
 
 - Set up mobile CI/CD with Fastlane, automating iOS & Android release pipelines, including building and signing the extra share-extension target and its separate entrypoint.
 - Configured push notifications and the Apple Developer account from scratch.
 - Set up over-the-air (OTA) updates with CodePush.
 - Helped build background task queues in the GCP backend.
+- Contributed to the Next.js web app, which several engineers on the team worked on together.
 
 #### Hype Hype / Frogmind
 
